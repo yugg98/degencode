@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <img src="/dev.png" alt="" srcset="" />
+          <img src="/ma1.png" alt="" srcset="" />
           <div>
             <p className="md:text-7xl font-silkscreen text-3xl md:mt-0 mt-10 text-white">
               Fueling Communities
@@ -41,7 +41,7 @@ export default function Home() {
               you chilled!
             </p>
           </div>
-          <img src="/dev.png" className="md:mt-0 mt-6" alt="" srcset="" />
+          <img src="/ma2.png" className="md:mt-0 mt-6" alt="" srcset="" />
         </div>
       </div>
 
@@ -52,21 +52,22 @@ export default function Home() {
               <img src="/icons/set.svg" alt="" class="inline-block h-16" />
               <p class="text-2xl text-white font-semibold">Exposure</p>
               <p class="text-sm text-gray-100">
-                Bizarrely cool marketing strategies, imagine blasting off!
+              Bizarrely cool marketing strategies, imagine blasting off!
               </p>
             </div>
             <div class="grid gap-2 border border-solid hover:border-[#F46900] rounded-sm p-8 md:p-10">
               <img src="/icons/set.svg" alt="" class="inline-block h-16" />
-              <p class="text-2xl text-white font-semibold">Exposure</p>
+              <p class="text-2xl text-white font-semibold">Innovative</p>
               <p class="text-sm text-gray-100">
-                Bizarrely cool marketing strategies, imagine blasting off!
+              Crypto meets buzz, that’s us!
+
               </p>
             </div>
             <div class="grid gap-2 border border-solid hover:border-[#F46900] rounded-sm p-8 md:p-10">
               <img src="/icons/set.svg" alt="" class="inline-block h-16" />
-              <p class="text-2xl text-white font-semibold">Exposure</p>
+              <p class="text-2xl text-white font-semibold">Reliable</p>
               <p class="text-sm text-gray-100">
-                Bizarrely cool marketing strategies, imagine blasting off!
+              Our dazzling results will leave you stunned
               </p>
             </div>
           </div>
@@ -172,12 +173,12 @@ export default function Home() {
       </div>
       <div className="max-w-7xl mx-auto my-20 p-6">
         <p className="md:text-6xl text-3xl font-silkscreen linear-text2 max-w-3xl">
-          Public Raise Degen Style Public raise?
+        Public Raise Degen Style
+
         </p>
         <p className="text-white md:text-2xl text-xl max-w-6xl mt-4">
-          Yeah, we do it, but we do it Degen style. Token launches, NFT madness,
-          and blockchain wizardry – we&apos;re the chaos architects that&apos;ll
-          make your raise unforgettable.
+        Public raise? Yeah, we do it, but we do it Degen style. Token launches, NFT madness, and blockchain wizardry – we're the chaos architects that'll make your raise unforgettable.
+
         </p>
       </div>
 
@@ -195,7 +196,7 @@ export default function Home() {
           <ul class="grid w-full grid-cols-1 gap-8 md:grid-cols-3 md:gap-4 ">
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
               <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
-                Gras Design
+                Gras Starter
               </h2>
               <div className="mt-10">
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">

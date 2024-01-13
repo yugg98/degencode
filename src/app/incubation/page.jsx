@@ -39,6 +39,47 @@ const page = () => {
                     <p className="text-gray-700">Turbocharge your network for epic fundraising collabs.</p>
                     </div>
                     <div>
+                    <p className="text-lg text-white">Custom Hacks</p>
+                    <p className="text-gray-700">No cookie-cutter crap. Tailored strategies for your project to slay.</p>
+                    </div>
+                    <div>
+                    <p className="text-lg text-white">Crypto Cash Oasis</p>
+                    <p className="text-gray-700">Dive into a pool of investors ready to toss stacks at your genius.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
+            <div>
+                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">Tech Sorcery</p>
+                <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
+                    <div>
+                    <p className="text-lg text-white">Mad Connections</p>
+                    <p className="text-gray-700">Turbocharge your network for epic fundraising collabs.</p>
+                    </div>
+                    <div>
+                    <p className="text-lg text-white">Mad Connections</p>
+                    <p className="text-gray-700">Turbocharge your network for epic fundraising collabs.</p>
+                    </div>
+                    <div>
+                    <p className="text-lg text-white">Mad Connections</p>
+                    <p className="text-gray-700">Turbocharge your network for epic fundraising collabs.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="/tech.png" alt="" srcset="" />
+
+        </div>
+        <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
+            <img src="/marketing.png" alt="" srcset="" />
+            <div>
+                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">Fundraising</p>
+                <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
+                    <div>
+                    <p className="text-lg text-white">Mad Connections</p>
+                    <p className="text-gray-700">Turbocharge your network for epic fundraising collabs.</p>
+                    </div>
+                    <div>
                     <p className="text-lg text-white">Mad Connections</p>
                     <p className="text-gray-700">Turbocharge your network for epic fundraising collabs.</p>
                     </div>
@@ -67,7 +108,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <img src="/fund.png" alt="" srcset="" />
+            <img src="/m2.png" alt="" srcset="" />
 
         </div>
       </div>

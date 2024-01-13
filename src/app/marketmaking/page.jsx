@@ -30,21 +30,22 @@ const page = () => {
             <p className="text-lg text-white text-center">TRADED VOLUME</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center">50M+</p>
-            <p className="text-lg text-white text-center">TRADED VOLUME</p>
+            <p className="text-5xl text-white text-center">100+</p>
+            <p className="text-lg text-white text-center">COUNTRIES SUPPORTED</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center">50M+</p>
-            <p className="text-lg text-white text-center">TRADED VOLUME</p>
+            <p className="text-5xl text-white text-center">50+</p>
+            <p className="text-lg text-white text-center">INSTITUTIONAL CLIENTS</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center">50M+</p>
-            <p className="text-lg text-white text-center">TRADED VOLUME</p>
+            <p className="text-5xl text-white text-center">$5M+</p>
+            <p className="text-lg text-white text-center">RETURN GENERATED FOR INVESTORS WORLDWIDE</p>
         </div>
       </div>
       <div className="my-20 md:px-10 px-6 max-w-7xl mx-auto">
         <p className="md:text-3xl text-xl md:leading-10  text-white max-w-6xl  ">
-        Ready to revolutionise your market presence? 
+        Ready to revolutionise your market presence? Elevate your tokens with Degencode's Market Making Services – where liquidity meets innovation. Let's amplify your impact in the digital arena. Contact us now and let's make waves together! 
+
         </p>
         <p className="text-white text-xl max-w-4xl mt-4">Elevate your tokens with Degencode&apos;s Market Making Services – where liquidity meets innovation. Let&apos;s amplify your impact in the digital arena. </p>
         <button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-700 linear-text ">

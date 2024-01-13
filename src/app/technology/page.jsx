@@ -47,13 +47,13 @@ export default function Home() {
               innovation meets execution, and the future is now..
             </p>
           </div>
-          <img src="/dev.png" className="md:mt-0 mt-6" alt="" srcset="" />
+          <img src="/dev2.png" className="md:mt-0 mt-6" alt="" srcset="" />
         </div>
       </div>
       <Services />
       <div className="bg-white/10 py-20 my-20 px-4 ">
         <div className="flex md:flex-nowrap  flex-wrap justify-between items-center max-w-5xl mx-auto  gap-x-20  ">
-          <img src="/dev.png" alt="" srcset="" />
+          <img src="/dev3.png" alt="" srcset="" />
           <div>
             <p className="md:text-5xl text-3xl md:mt-0 mt-4 text-white">Real World Assets (RWA)</p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
@@ -82,7 +82,7 @@ export default function Home() {
               a leap into the extraordinary.
             </p>
           </div>
-          <img src="/dev.png" className="mt-4 md:mt-0" alt="" srcset="" />
+          <img src="/dev4.png" className="mt-4 md:mt-0" alt="" srcset="" />
         </div>
       </div>
       <div className="bg-white/10 py-20 my-20 px-4">
@@ -100,7 +100,7 @@ export default function Home() {
               gets a digital makeover.
             </p>
           </div>
-          <img src="/dev.png" className="md:mt-0 mt-4" alt="" srcset="" />
+          <img src="/dev5.png" className="md:mt-0 mt-4" alt="" srcset="" />
         </div>
         <OtherSerices />
       </div>

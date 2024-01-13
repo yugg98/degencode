@@ -7,60 +7,60 @@ const Services = () => {
       icon:'/icons/g.svg'
     },
     {
-      name:"Game Development",
+      name:"Web3.0 Advisory",
       icon:'/icons/draw/block.svg'
     },
     {
-      name:"Game Development",
+      name:"Metaverse Development",
       icon:'/icons/draw/distribution.svg'
     },{
-      name:"Game Development",
+      name:"NFT Creation",
       icon:'/icons/draw/ledger.svg'
     },
     {
-      name:"Game Development",
+      name:"Whitepaper Assistance",
       icon:'/icons/draw/ledger-2.svg'
     },
     {
       name:"Game Development",
       icon:'/icons/draw/network.svg'
     },{
-      name:"Game Development",
+      name:"Staking Platform",
       icon:'/icons/draw/proof-of-work.svg'
     },{
-      name:"Game Development",
+      name:"Token Development",
       icon:'/icons/draw/node.svg'
     },{
-      name:"Game Development",
+      name:"NFT Marketplace",
       icon:'/icons/draw/search.svg'
     },
     {
-      name:"Game Development",
+      name:"Exchange Development (CEX, DEX)",
       icon:'/icons/draw/transfer.svg'
     },
     {
-      name:"Game Development",
+      name:"Smart Contract development",
       icon:'/icons/draw/transaction-2.svg'
     },
   
     {
-      name:"Game Development",
+      name:"Crypto Wallet Development",
       icon:'/icons/draw/wallet.svg'
     },
     {
-      name:"Game Development",
+      name:"Smart Contract Audits",
       icon:'/icons/smart.svg'
     },
     {
-      name:"Game Development",
+      name:" Launchpad Development",
       icon:'/icons/g1.svg'
     },
     {
-      name:"Game Development",
+      name:"DeFi",
       icon:'/icons/cry.png'
     },
     {
-      name:"Game Development",
+      name:"Tokenomics",
       icon:'/icons/draw/block-reward.svg'
     },
   ]
@@ -77,39 +77,37 @@ const Services = () => {
 }
 
 export const OtherSerices = () => {
+  
   const features = [
     {
-      name:"Game Development",
-      icon:'/icons/g.svg'
+      name:"DeFi",
+      icon:'/icons/cry.png'
     },
     {
-      name:"Game Development",
-      icon:'/icons/draw/block.svg'
+      name:"Tokenomics",
+      icon:'/icons/draw/block-reward.svg'
     },
     {
-      name:"Game Development",
+      name:"Smart Contract development",
+      icon:'/icons/draw/transaction-2.svg'
+    },
+    {
+      name:"Metaverse Development",
       icon:'/icons/draw/distribution.svg'
     },{
-      name:"Game Development",
+      name:"NFT Creation",
       icon:'/icons/draw/ledger.svg'
     },
     {
-      name:"Game Development",
-      icon:'/icons/draw/ledger-2.svg'
+      name:"Smart Contract Audits",
+      icon:'/icons/smart.svg'
     },
     {
-      name:"Game Development",
-      icon:'/icons/draw/network.svg'
-    },{
-      name:"Game Development",
+      name:"Staking Platform",
       icon:'/icons/draw/proof-of-work.svg'
-    },{
-      name:"Game Development",
-      icon:'/icons/draw/node.svg'
-    },{
-      name:"Game Development",
-      icon:'/icons/draw/search.svg'
-    },
+    }
+   
+   
    
   ]
   return (
