@@ -72,13 +72,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="max-w-7xl mx-auto my-20">
-        <p className="text-6xl font-silkscreen linear-text2 max-w-3xl">
+      <div className="max-w-7xl mx-auto my-20 px-6">
+        <p className="md:text-6xl text-4xl font-silkscreen linear-text2 max-w-3xl">
           Our Star Duo at your Service
         </p>
         <p className="text-white text-2xl mt-4">Our Star Duo at your Service</p>
         <div className="my-10">
-          <div className="grid grid-cols-2 gap-x-20">
+          <div className="grid md:grid-cols-2 gap-20">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 29+
@@ -96,7 +96,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 my-10 gap-x-8">
+          <div className="grid md:grid-cols-3 my-10 gap-8">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 29+
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
         </div>
         <div className="my-10">
-          <div className="grid grid-cols-2 gap-x-20">
+          <div className="grid md:grid-cols-2 gap-20">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 29+
@@ -142,7 +142,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 my-10 gap-x-8">
+          <div className="grid md:grid-cols-3 my-10 gap-8">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text">
                 29+
@@ -170,14 +170,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto my-20">
-        <p className="text-6xl font-silkscreen linear-text2 max-w-3xl">
+      <div className="max-w-7xl mx-auto my-20 p-6">
+        <p className="md:text-6xl text-3xl font-silkscreen linear-text2 max-w-3xl">
           Public Raise Degen Style Public raise?
         </p>
-        <p className="text-white text-2xl max-w-6xl mt-4">
+        <p className="text-white md:text-2xl text-xl max-w-6xl mt-4">
           Yeah, we do it, but we do it Degen style. Token launches, NFT madness,
-          and blockchain wizardry – we&apos;re the chaos architects that&apos;ll make your
-          raise unforgettable.
+          and blockchain wizardry – we&apos;re the chaos architects that&apos;ll
+          make your raise unforgettable.
         </p>
       </div>
 
@@ -187,86 +187,99 @@ export default function Home() {
             GRAS - Growth As A service
           </h2>
 
-          <p class="mx-auto mb-8 mt-4 max-w-3xl text-2xl text-center text-white md:mb-12 lg:mb-16">
-            We&apos;re not serving growth; we&apos;re unleashing a degen revolution. Get
-            hyped for a digital thrill ride that&apos;s about to turn your brand into
-            the ultimate flex
+          <p class="mx-auto mb-8 mt-4 max-w-3xl md:text-2xl text-lg text-center text-white md:mb-12 lg:mb-16">
+            We&apos;re not serving growth; we&apos;re unleashing a degen
+            revolution. Get hyped for a digital thrill ride that&apos;s about to
+            turn your brand into the ultimate flex
           </p>
           <ul class="grid w-full grid-cols-1 gap-8 md:grid-cols-3 md:gap-4 ">
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-                <h2 class=" text-[#4ECDC4] font-semibold text-3xl">Gras Design</h2>
-             <div className="mt-10">
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon  className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
+              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
+                Gras Design
+              </h2>
+              <div className="mt-10">
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
               </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">LFG!</button>
+              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+                LFG!
+              </button>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-                <h2 class=" text-[#4ECDC4] font-semibold text-3xl">Gras Design</h2>
-             <div className="mt-10">
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
+              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
+                Gras Design
+              </h2>
+              <div className="mt-10">
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
               </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">LFG!</button>
+              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+                LFG!
+              </button>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-                <h2 class=" text-[#4ECDC4] font-semibold text-3xl">Gras Design</h2>
-             <div className="mt-10">
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
+              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
+                Gras Design
+              </h2>
+              <div className="mt-10">
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Premium Designs</p>
+                </div>
               </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
-                <p class="text-white/20 text-lg">Premium Designs</p>
-              </div>
-              </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">LFG!</button>
+              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+                LFG!
+              </button>
             </li>
           </ul>
         </div>
-
       </section>
-      <div className="max-w-6xl mb-10 mx-auto">
-<p className="text-4xl text-white max-w-5xl">Had enough of ordinary? It’s time for the extraordinary. Join us on this wild ride.
-</p>
-<button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-950 linear-text ">
+      <div className="max-w-6xl mb-10 mx-auto  p-6">
+        <p className="md:text-4xl text-2xl text-white max-w-5xl">
+          Had enough of ordinary? It’s time for the extraordinary. Join us on
+          this wild ride.
+        </p>
+        <button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-950 linear-text ">
           Sign Up Now!
           <svg
             xmlns="http://www.w3.org/2000/svg"

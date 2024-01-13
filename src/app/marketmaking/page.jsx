@@ -24,7 +24,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white/10  md:px-10 px-6 grid grid-cols-4 py-16 border-2 border-[#FFAD03] rounded-3xl my-10 max-w-7xl mx-auto">
+      <div className="bg-white/10  md:px-10 px-6 grid md:grid-cols-4 gap-10 py-16 border-2 border-[#FFAD03] rounded-3xl my-10 max-w-7xl mx-auto">
         <div>
             <p className="text-5xl text-white text-center">50M+</p>
             <p className="text-lg text-white text-center">TRADED VOLUME</p>
