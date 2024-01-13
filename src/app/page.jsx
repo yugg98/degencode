@@ -98,18 +98,20 @@ const page = () => {
           <p className="text-xl font-semibold  text-white mb-6">
             Our Previous <br /> Clients
           </p>
-          <div className="flex gap-x-10 justify-between ml-10">
-            <Marquee>
+          <div className="flex gap-10 justify-between ml-10">
+            <Marquee >
+              <div className="flex gap-10 justify-between ml-10">
               {logos.map((item, index) => (
                 <img
                   key={index}
-                  className="col-span-2 mix-blend max-h-12 w-full object-contain lg:col-span-1"
+                  className="col-span-2 mx-10 mix-blend max-h-12 w-full object-contain lg:col-span-1"
                   src={item.logo}
                   alt="Transistor"
                   width={158}
                   height={48}
                 />
               ))}
+              </div>
             </Marquee>
           </div>
         </div>
