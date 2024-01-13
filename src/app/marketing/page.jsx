@@ -232,9 +232,9 @@ export default function Home() {
                   <p class="text-white font-silkscreen text-lg">Guaranteed Volume</p>
                 </div>
               </div>
-              <button className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
+              <Link  target="_blank" href="https://t.me/Indra6683" className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
                 LFG!
-              </button>
+             </Link>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
               <h2 class=" text-[#F46900] font-silkscreen font-semibold text-3xl">GRAS Degen</h2>
@@ -264,9 +264,9 @@ export default function Home() {
                   <p class="text-white font-silkscreen text-lg">Guaranteed Volume</p>
                 </div>
               </div>
-              <button className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
+               <Link  target="_blank" href="https://t.me/Indra6683" className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
                 LFG!
-              </button>
+              </Link>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
               <h2 class=" text-[#F46900] font-silkscreen font-semibold text-3xl">GRAS WILD</h2>
@@ -296,9 +296,9 @@ export default function Home() {
                   <p class="text-white font-silkscreen text-lg">Guaranteed Volume</p>
                 </div>
               </div>
-              <button className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
+              <Link  target="_blank" href="https://t.me/Indra6683" className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
                 LFG!
-              </button>
+              </Link>
             </li>
           </ul>
         </div>
