@@ -1,4 +1,5 @@
 "use client";
+import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
@@ -196,7 +197,7 @@ export default function Home() {
                 <h2 class=" text-[#4ECDC4] font-semibold text-3xl">Gras Design</h2>
              <div className="mt-10">
               <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-               <CheckCircleIcon className="w-6 h-6 text-white/20"/>
+               <CheckCircleIcon  className="w-6 h-6 text-white/20"/>
                 <p class="text-white/20 text-lg">Premium Designs</p>
               </div>
               <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
