@@ -2,6 +2,7 @@
 import Footer from "../../components/Footer";
 
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
+import Spline from "@splinetool/react-spline";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
@@ -21,7 +22,12 @@ export default function Home() {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <img src="/ma1.png" alt="" srcset="" />
+          <div className="w-1/2">
+            <Spline
+              scene="https://my.spline.design/sphereparticle-59b517cd5a42466c5c2499bb22a729fb/"
+              className="w-full h-full"
+            />
+          </div>
           <div>
             <p className="md:text-7xl font-silkscreen text-3xl md:mt-0 mt-10 text-white">
               Fueling Communities
@@ -31,19 +37,16 @@ export default function Home() {
               power. You’re not just building communities; you’re building a
               cult.
             </p>
+            <div className="mt-4">
+              <p className="md:text-7xl font-silkscreen text-3xl md:mt-0 mt-10 text-white">
+                Influencer Marketing
+              </p>
+              <p className="text-gray-300 max-w-lg  md:text-lg text-base mt-4">
+                We toss influencers and blockchain into a blender and serve it
+                to you chilled!
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="flex md:flex-nowrap flex-wrap justify-between items-center my-10 gap-x-20  ">
-          <div>
-            <p className="md:text-7xl font-silkscreen text-3xl md:mt-0 mt-10 text-white">
-              Influencer Marketing
-            </p>
-            <p className="text-gray-300 max-w-lg  md:text-lg text-base mt-4">
-              We toss influencers and blockchain into a blender and serve it to
-              you chilled!
-            </p>
-          </div>
-          <img src="/ma2.png" className="md:mt-0 mt-6" alt="" srcset="" />
         </div>
       </div>
 
@@ -79,7 +82,7 @@ export default function Home() {
         <p className="text-white text-2xl mt-4">Our Star Duo at your Service</p>
         <div className="my-10">
           <div className="grid md:grid-cols-2 gap-20">
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 50+
               </p>
@@ -87,7 +90,7 @@ export default function Home() {
                 thriving communities we’ve super-charged
               </p>
             </div>
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 15M+
               </p>
@@ -97,7 +100,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid md:grid-cols-3 my-10 gap-8">
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 9
               </p>
@@ -105,7 +108,7 @@ export default function Home() {
                 Launchpad Partners
               </p>
             </div>
-            <div className="bg-white/10 rounded-3xl col-span-2 py-16">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl col-span-2 py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 1000%
               </p>
@@ -117,7 +120,7 @@ export default function Home() {
         </div>
         <div className="my-10">
           <div className="grid md:grid-cols-2 gap-20">
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 500k+
               </p>
@@ -125,7 +128,7 @@ export default function Home() {
                 degens reached
               </p>
             </div>
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
                 10+
               </p>
@@ -135,16 +138,16 @@ export default function Home() {
             </div>
           </div>
           <div className="grid md:grid-cols-3 my-10 gap-8">
-            <div className="bg-white/10 rounded-3xl py-16">
-              <p className="text-5xl font-silkscreen text-center linear-text">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
+              <p className="text-5xl font-silkscreen text-center linear-text2">
                 10
               </p>
               <p className="text-3xl text-center mt-8 text-white">
                 Team Members
               </p>
             </div>
-            <div className="bg-white/10 col-span-2 rounded-3xl py-16">
-              <p className="text-5xl font-silkscreen text-center linear-text">
+            <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 col-span-2 rounded-3xl py-16">
+              <p className="text-5xl font-silkscreen text-center linear-text2">
                 150+
               </p>
               <p className="text-3xl text-center mt-8 text-white">

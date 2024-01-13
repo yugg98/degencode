@@ -2,8 +2,8 @@ const navigation = {
     main: [
         { name: "Home", href: "/", current: true },
         { name: "Technology", href: "/technology", current: false },
-        { name: "Marketing", href: "/marketing", current: false },
-        { name: "MarketMaking", href: "/marketmaking", current: false },
+        { name: "Marketing & Public Raise", href: "/marketing", current: false },
+        { name: "Market Making", href: "/marketmaking", current: false },
         { name: "Incubation", href: "/incubation", current: false },
     ],
     social: [

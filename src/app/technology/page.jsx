@@ -1,17 +1,21 @@
-"use client"
+"use client";
 import Footer from "../../components/Footer";
 import Contactus from "../../components/Contact";
 import Services, { OtherSerices } from "../../components/Services";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Spline from "@splinetool/react-spline";
 
 export default function Home() {
   return (
     <div>
       <div className="md:px-20 px-4 bg-white/10 py-10 pb-20">
         <p className="md:text-7xl text-5xl py-4 linear-text  font-silkscreen">
-          <TypeAnimation sequence={["Strap in, digital dynamos!"]} repeat={"infinity"}/>
+          <TypeAnimation
+            sequence={["Strap in, digital dynamos!"]}
+            repeat={"infinity"}
+          />
            
         </p>
         <p className="text-white mt-4 md:text-2xl text-xl max-w-5xl">
@@ -20,27 +24,33 @@ export default function Home() {
         </p>
         <p className="text-white text-base mt-2 max-w-5xl">
           Buckle up, because at Degencode, we&apos;re not just riding the wave –
-          we&apos;re turning it into a party. The future has a front-row seat for
-          your fabulousness; are you ready to steal the show?
+          we&apos;re turning it into a party. The future has a front-row seat
+          for your fabulousness; are you ready to steal the show?
         </p>
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <img src="/dev.png" alt="" srcset="" />
-          <div>
-            <p className="md;text-5xl text-3xl md:mt-0 mt-10 text-white">Development Services</p>
+        <div className="md:w-1/2 ">
+            <Spline scene="https://prod.spline.design/7irI3hoitl3wO0AT/scene.splinecode" className="w-full h-full "/>
+          </div>
+          
+          <div className="md:w-1/2">
+            <p className="md;text-5xl text-3xl md:mt-0 mt-10 text-white">
+              Development Services
+            </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
               At Degencode, we redefine the digital frontier through our
               cutting-edge Web3 Tech Development services. Seamlessly blending
               creativity with technical prowess, we transform visionary concepts
               into tangible digital realities. From pioneering blockchain
-              solutions to architecting decentralised platforms, we&apos;re not just
-              developers; we&apos;re the architects of the future digital landscape..
+              solutions to architecting decentralised platforms, we&apos;re not
+              just developers; we&apos;re the architects of the future digital
+              landscape..
             </p>
           </div>
         </div>
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center my-10 gap-x-20  ">
-          <div>
+          <div className="md:w-1/2">
             <p className="text-gray-300 max-w-lg  md:text-lg text-base mt-4">
               With a pulse on the latest technologies, we craft bespoke
               solutions that not only meet but exceed the demands of the Web3
@@ -48,42 +58,56 @@ export default function Home() {
               innovation meets execution, and the future is now..
             </p>
           </div>
-          <img src="/dev2.png" className="md:mt-0 mt-6" alt="" srcset="" />
+          <div className="md:w-1/2 ">
+            <Spline scene="https://prod.spline.design/2JdxS1nnQwdtH4jR/scene.splinecode" className="w-full h-full "/>
+          </div>
         </div>
       </div>
       <Services />
       <div className="bg-white/10 py-20 my-20 px-4 ">
         <div className="flex md:flex-nowrap  flex-wrap justify-between items-center max-w-5xl mx-auto  gap-x-20  ">
-          <img src="/dev3.png" alt="" srcset="" />
-          <div>
-            <p className="md:text-5xl text-3xl md:mt-0 mt-4 text-white">Real World Assets (RWA)</p>
+        <div className="md:w-1/2 overflow-hidden">
+            <Spline scene="https://prod.spline.design/oTzmRZoXhCHgxNLd/scene.splinecode" className="w-full h-full "/>
+          </div>
+
+          
+          <div className="md:w-1/2">
+            <p className="md:text-5xl text-3xl md:mt-0 mt-4 text-white">
+              Real World Assets (RWA)
+            </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
               At Degencode, our Web3 RWA Tokenization services are not just
-              flipping the script; we&apos;re turning it into a blockbuster. We don&apos;t
-              tokenize assets; we transform them into blockchain legends. 
-              Transparency, liquidity, accessibility – they&apos;re not features;
-              they&apos;re our entourage. Why Degencode? It&apos;s where the real world
-              gets a digital makeover.
+              flipping the script; we&apos;re turning it into a blockbuster. We
+              don&apos;t tokenize assets; we transform them into blockchain
+              legends.  Transparency, liquidity, accessibility – they&apos;re
+              not features; they&apos;re our entourage. Why Degencode? It&apos;s
+              where the real world gets a digital makeover.
             </p>
           </div>
         </div>
       </div>
       <div className=" py-20 my-20 px-4">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center max-w-5xl mx-auto  gap-x-20  ">
-          <div>
-            <p className="md:text-5xl text-3xl text-white">Advisory and Consultation</p>
+          <div className="md:w-1/2">
+            <p className="md:text-5xl text-3xl text-white">
+              Advisory and Consultation
+            </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
               Our advisory services are a strategic fusion of wisdom and
               innovation, providing insights that transcend the ordinary. From
               navigating blockchain landscapes to optimising decentralised
               ecosystems, we&apos;re the captains of your digital voyage. At
-              Degencode, we&apos;re not just advisors; we&apos;re your partners in
-              pioneering the next era of digital transformation. Elevate your
+              Degencode, we&apos;re not just advisors; we&apos;re your partners
+              in pioneering the next era of digital transformation. Elevate your
               strategy with a touch of Web3 brilliance – where every decision is
               a leap into the extraordinary.
             </p>
           </div>
-          <img src="/dev4.png" className="mt-4 md:mt-0" alt="" srcset="" />
+          
+          <div className="md:w-1/2 h-full ">
+            <Spline scene="https://prod.spline.design/imPhE8Mcs-131BSt/scene.splinecode" className="w-full h-full "/>
+          </div>
+
         </div>
       </div>
       <div className="bg-white/10 py-20 my-20 px-4">
@@ -94,11 +118,11 @@ export default function Home() {
             </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
               At Degencode, our Web3 RWA Tokenization services are not just
-              flipping the script; we&apos;re turning it into a blockbuster. We don&apos;t
-              tokenize assets; we transform them into blockchain legends. 
-              Transparency, liquidity, accessibility – they&apos;re not features;
-              they&apos;re our entourage. Why Degencode? It&apos;s where the real world
-              gets a digital makeover.
+              flipping the script; we&apos;re turning it into a blockbuster. We
+              don&apos;t tokenize assets; we transform them into blockchain
+              legends.  Transparency, liquidity, accessibility – they&apos;re
+              not features; they&apos;re our entourage. Why Degencode? It&apos;s
+              where the real world gets a digital makeover.
             </p>
           </div>
           <img src="/dev5.png" className="md:mt-0 mt-4" alt="" srcset="" />
@@ -108,13 +132,14 @@ export default function Home() {
       <div className="my-20 ">
         <p className="md:text-3xl text-xl md:leading-10 px-5 text-white max-w-6xl text-center mx-auto">
           Ready to turn your digital dreams into reality? Unleash the power of
-          innovation with Degencode&apos;s Tech Development Services. Whether it&apos;s
-          blockchain brilliance or crafting decentralized wonders, we&apos;ve got the
-          tech prowess to make it happen. Let&apos;s redefine possibilities together.
-          Reach out to us now and let&apos;s build the future you envision! 
+          innovation with Degencode&apos;s Tech Development Services. Whether
+          it&apos;s blockchain brilliance or crafting decentralized wonders,
+          we&apos;ve got the tech prowess to make it happen. Let&apos;s redefine
+          possibilities together. Reach out to us now and let&apos;s build the
+          future you envision! 
         </p>
-        <button className="mx-auto shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-950 linear-text ">
-          Sign Up Now!
+        <button className="mx-auto shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-700 linear-text ">
+          Book an introductory call
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -145,7 +170,7 @@ export default function Home() {
         </button>
       </div>
       <div className="my-10">
-      <Contactus/>
+        <Contactus />
       </div>
       <Footer />
     </div>

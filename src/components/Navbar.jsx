@@ -40,8 +40,8 @@ const user = {
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Technology", href: "/technology", current: false },
-  { name: "Marketing", href: "/marketing", current: false },
-  { name: "MarketMaking", href: "/marketmaking", current: false },
+  { name: "Marketing & Public Raise", href: "/marketing", current: false },
+  { name: "Market Making", href: "/marketmaking", current: false },
   { name: "Incubation", href: "/incubation", current: false },
 ];
 function classNames(...classes) {
@@ -67,7 +67,7 @@ export default function Example() {
               <div className="relative flex justify-between lg:gap-8 xl:grid xl:grid-cols-12">
                 <div className="flex md:absolute md:inset-y-0 md:left-0 lg:static xl:col-span-2">
                   <div className="flex flex-shrink-0 items-center">
-                    <a href="#">
+                    <a href="/">
                       <img
                         className="h-10 w-auto"
                         src="/logo.svg"
@@ -92,45 +92,45 @@ export default function Example() {
               </div>
             </div>
             <Transition
-  as={Fragment}
-  enter="transition ease-out duration-200"
-  enterFrom="opacity-0 translate-x-full" // Enter from left
-  enterTo="opacity-100 translate-x-0"
-  leave="transition ease-in duration-150"
-  leaveFrom="opacity-100 translate-x-0"
-  leaveTo="opacity-0 translate-x-full" // Leave to left
->
-            <Popover.Panel
-              as="nav"
-              className="absolute border-t border-gray-700 bg-black right-0 md:w-[50vw] w-full h-full z-10"
-              aria-label="Global"
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 translate-x-full" // Enter from left
+              enterTo="opacity-100 translate-x-0"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 translate-x-0"
+              leaveTo="opacity-0 translate-x-full" // Leave to left
             >
-              <div className="flex">
-                <div className="border-r h-screen h pt-4">
-                  <Popover.Button>
-                <XMarkIcon className="w-8 h-8 text-white font-semibold mx-4" />
-                </Popover.Button>
-                </div>
-                <div className="mx-auto max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4">
-                  <div className="ml-2 ">
-                    <img src="/logo.svg" alt="" srcset="" />
+              <Popover.Panel
+                as="nav"
+                className="absolute border-t border-gray-700 bg-black right-0 md:w-[50vw] w-full h-full z-10"
+                aria-label="Global"
+              >
+                <div className="flex">
+                  <div className="border-r h-screen h pt-4">
+                    <Popover.Button>
+                      <XMarkIcon className="w-8 h-8 text-white font-semibold mx-4" />
+                    </Popover.Button>
                   </div>
-                  {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      aria-current={item.current ? "page" : undefined}
-                      className={classNames(
-                        item.current ? " text-gray-100" : "hover:bg-gray-900",
-                        "block py-2 px-3 border-b text-white text-2xl font-medium"
-                      )}
-                    >
-                      {item.name}
-                    </a>
-                  ))}
+                  <div className="mx-auto max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4">
+                    <div className="ml-2 ">
+                      <img src="/logo.svg" alt="" srcset="" />
+                    </div>
+                    {navigation.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        aria-current={item.current ? "page" : undefined}
+                        className={classNames(
+                          item.current ? " text-gray-100" : "hover:bg-gray-900",
+                          "block py-2 px-3 border-b my-6 text-white text-2xl font-medium"
+                        )}
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </Popover.Panel>
+              </Popover.Panel>
             </Transition>
           </>
         )}

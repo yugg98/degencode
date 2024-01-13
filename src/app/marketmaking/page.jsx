@@ -1,3 +1,5 @@
+"use client"
+import Spline from "@splinetool/react-spline";
 import Footer from "../../components/Footer";
 
 import React from "react";
@@ -7,7 +9,9 @@ const page = () => {
     <div>
       <div className="my-20 md:px-10 px-6 max-w-6xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <img src="/code.png" className="md:w-1/2 w-full" alt="" srcset="" />
+          <div className="md:w-1/2 w-full">
+          <Spline scene="https://prod.spline.design/i-LR7IyAGVW15ifC/scene.splinecode"  />
+          </div>
           <div className="md:w-1/2 w-full">
             <p className="md:text-5xl text-3xl md:mt-0 mt-10 linear-text font-silkscreen">
               Market Making
@@ -26,22 +30,22 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white/10  md:px-10 px-6 grid md:grid-cols-4 gap-10 py-16 border-2 border-[#FFAD03] rounded-3xl my-10 max-w-7xl mx-auto">
+      <div className="bg-white/10  md:px-10 px-6 grid md:grid-cols-4 gap-10 py-16 border-2 border-purple-900 rounded-3xl my-10 max-w-7xl mx-auto">
         <div>
-            <p className="text-5xl text-white text-center">50M+</p>
-            <p className="text-lg text-white text-center">TRADED VOLUME</p>
+            <p className="text-5xl  text-center font-silkscreen text-purple-900">50M+</p>
+            <p className="text-lg text-white text-center font-silkscreen mt-4">TRADED VOLUME</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center">100+</p>
-            <p className="text-lg text-white text-center">COUNTRIES SUPPORTED</p>
+            <p className="text-5xl text-white text-center font-silkscreen text-purple-900">100+</p>
+            <p className="text-lg text-white text-center font-silkscreen mt-4">COUNTRIES SUPPORTED</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center">50+</p>
-            <p className="text-lg text-white text-center">INSTITUTIONAL CLIENTS</p>
+            <p className="text-5xl text-white text-center font-silkscreen text-purple-900 font-silkscreen text-purple-900">50+</p>
+            <p className="text-lg text-white text-center font-silkscreen mt-4">INSTITUTIONAL CLIENTS</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center">$5M+</p>
-            <p className="text-lg text-white text-center">RETURN GENERATED FOR INVESTORS WORLDWIDE</p>
+            <p className="text-5xl text-white text-center font-silkscreen text-purple-900">$5M+</p>
+            <p className="text-lg text-white text-center font-silkscreen mt-4">RETURN GENERATED FOR INVESTORS WORLDWIDE</p>
         </div>
       </div>
       <div className="my-20 md:px-10 px-6 max-w-7xl mx-auto">
@@ -51,7 +55,7 @@ const page = () => {
         </p>
         <p className="text-white text-xl max-w-4xl mt-4">Elevate your tokens with Degencode&apos;s Market Making Services – where liquidity meets innovation. Let&apos;s amplify your impact in the digital arena. </p>
         <button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-700 linear-text ">
-          Sign Up Now!
+         HMU!
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"

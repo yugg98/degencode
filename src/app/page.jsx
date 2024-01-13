@@ -1,4 +1,6 @@
-"use clien";
+"use client";
+import Spline from "@splinetool/react-spline";
+import Link from "next/link";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
@@ -43,78 +45,106 @@ const page = () => {
     },
   ];
   return (
-    <main className="max-h-screen">
-      <div className="my-4">
+    <main className="max-h-full bg-[#461E5C]">
+      <div className="py-4 flex">
+        <p className="font-silkscreen hover:scale-95 transition-all ease-in-out delay-75 md:w-[26%] w-1/2	 md:text-4xl text-2xl mx-4 text-white">
+          Degen Code
+        </p>
+
         <Marquee>
-          <p className="font-silkscreen text-4xl mx-4 text-white">Degen Code</p>
-          <p className="text-4xl  text-gray-800 font-bold">
+          <p className="text-4xl w-full  text-gray-100 font-bold">
             Unleashing Tomorrow, Today – Where Innovation Meets the Digital
             Revolution!
           </p>
         </Marquee>
       </div>
       <div className="flex md:flex-nowrap justify-center items-center flex-wrap gap-x-10 max-w-6xl mx-auto px-6 ">
-        <div className="md:max-w-[50%]">
-        <video src="/video.mp4" autoplay muted  loop alt=""></video>
-
+        <div className="h-full w-1/2">
+          <Spline
+            scene="https://prod.spline.design/Oie8Fth7HFDZZB8b/scene.splinecode"
+            className="h-full w-full"
+          />
         </div>
         <div className="flex flex-col gap-y-6 md:max-w-[50%] w-full mt-4">
-          <div className="border-b border-gray-600 pb-6">
-            <p className="text-3xl font-silkscreen linear-text2">Incubation</p>
-            <p className="text-md mt-2 text-white">
-              Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
-              Innovation in a Single Leap!
-            </p>
-          </div>
-          <div className="border-b border-gray-600 pb-6">
-            <p className="text-3xl font-silkscreen linear-text2">Technology</p>
-            <p className="text-md mt-2 text-white">
-              TechLeap & Innovate: Propelling a Decade&apos;s Breakthroughs, One
-              Innovation at a Time!
-            </p>
-          </div>
-          <div className="border-b border-gray-600 pb-6">
-            <p className="text-3xl font-silkscreen linear-text2">
-              Marketing and Public Raise
-            </p>
-            <p className="text-md mt-2 text-white">
-              Catalyst Community: Igniting Innovation, Fueling Vibrant
-              Communities!
-            </p>
-          </div>
-          <div className="border-b border-gray-600 pb-6">
-            <p className="text-3xl font-silkscreen linear-text2">
-              Market Making
-            </p>
-            <p className="text-md mt-2 text-white">
-              Mastering Markets with a Side of Financial and Token Management
-              Expertise!
-            </p>
-          </div>
+          <Link href="/incubation">
+            <div className="border-b hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
+              <p className="text-3xl font-silkscreen linear-text2">
+                Incubation
+              </p>
+              <p className="text-md mt-2 text-white">
+                Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
+                Innovation in a Single Leap!
+              </p>
+            </div>
+          </Link>
+          <Link href="/technology">
+            <div className="border-b  hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
+              <p className="text-3xl font-silkscreen linear-text2">
+                Technology
+              </p>
+              <p className="text-md mt-2 text-white">
+                TechLeap & Innovate: Propelling a Decade&apos;s Breakthroughs,
+                One Innovation at a Time!
+              </p>
+            </div>
+          </Link>
+          <Link href="/marketing">
+            <div className="border-b  hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
+              <p className="text-3xl font-silkscreen linear-text2">
+                Marketing and Public Raise
+              </p>
+              <p className="text-md mt-2 text-white">
+                Catalyst Community: Igniting Innovation, Fueling Vibrant
+                Communities!
+              </p>
+            </div>
+          </Link>
+          <Link href="/marketmaking">
+            <div className="border-b  hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
+              <p className="text-3xl font-silkscreen linear-text2">
+                Market Making
+              </p>
+              <p className="text-md mt-2 text-white">
+                Mastering Markets with a Side of Financial and Token Management
+                Expertise!
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
 
-      <div className="my-10 ">
-        <div className="mx-auto flex max-w-6xl px-6 lg:px-8">
-          <p className="text-xl font-semibold  text-white mb-6">
-            Our Previous <br /> Clients
-          </p>
-          <div className="flex gap-10 justify-between ml-10">
-            <Marquee >
-              <div className="flex gap-10 justify-between ml-10">
-              {logos.map((item, index) => (
-                <img
-                  key={index}
-                  className="col-span-2 mx-10 mix-blend max-h-12 w-full object-contain lg:col-span-1"
-                  src={item.logo}
-                  alt="Transistor"
-                  width={158}
-                  height={48}
-                />
-              ))}
+      <div className="py-10 md:flex justify-between items-center max-w-6xl mx-auto">
+        <div className=" max-w-3xl overflow-hidden flex justify-between items-center px-6 lg:px-8">
+          <div className="w-1/3">
+            <p className="text-xl font-silkscreen font-semibold  text-white mb-6">
+              Partners
+            </p>
+          </div>
+          <div className="flex gap-2 justify-between ml-10">
+            <Marquee>
+              <div className="flex gap-2 justify-between ml-10">
+                {logos.map((item, index) => (
+                  <img
+                    key={index}
+                    className="col-span-2 mx-10 mix-blend max-h-10 w-full object-contain lg:col-span-1"
+                    src={item.logo}
+                    alt="Transistor"
+                  />
+                ))}
               </div>
             </Marquee>
           </div>
+        </div>
+        <div className="flex px-6 lg:px-8 mt-4 gap-x-4">
+          <Link href="https://twitter.com/degencodestudio?s=21&t=EtMFy30QIfpLRhxrCCftLg">
+            <p className="text-white font-silkscreen">Twitter</p>
+          </Link>
+          <Link href="https://t.me/Degencodestudio">
+            <p className="text-white font-silkscreen">Telegram</p>
+          </Link>
+          <Link href="">
+            <p className="text-white font-silkscreen">Privacy</p>
+          </Link>
         </div>
       </div>
     </main>

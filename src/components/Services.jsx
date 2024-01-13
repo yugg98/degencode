@@ -79,10 +79,7 @@ const Services = () => {
 export const OtherSerices = () => {
   
   const features = [
-    {
-      name:"DeFi",
-      icon:'/icons/cry.png'
-    },
+   
     {
       name:"Tokenomics",
       icon:'/icons/draw/block-reward.svg'
@@ -91,10 +88,7 @@ export const OtherSerices = () => {
       name:"Smart Contract development",
       icon:'/icons/draw/transaction-2.svg'
     },
-    {
-      name:"Metaverse Development",
-      icon:'/icons/draw/distribution.svg'
-    },{
+    ,{
       name:"NFT Creation",
       icon:'/icons/draw/ledger.svg'
     },
@@ -102,13 +96,7 @@ export const OtherSerices = () => {
       name:"Smart Contract Audits",
       icon:'/icons/smart.svg'
     },
-    {
-      name:"Staking Platform",
-      icon:'/icons/draw/proof-of-work.svg'
-    }
-   
-   
-   
+    
   ]
   return (
     <div className='grid md:grid-cols-4 grid-cols-2 gap-10 max-w-5xl mx-auto '>
