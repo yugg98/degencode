@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 body {
-  background:#0A0A0B;
+  background: #0a0a0b;
 }
-.linear-text{
-  background: var(--Linear, linear-gradient(90deg, #4646FB -11.57%, #BE4DFF 99.96%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.linear-text {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #4646fb -11.57%, #be4dff 99.96%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .contact {
   border-radius: 16px;
@@ -21,9 +24,17 @@ background-clip: text;
     #040404 91.79%
   );
 }
-.linear-text2{
-  background: var(--Linear, linear-gradient(90deg, #F46900 -11.57%, #FB8A00 99.96%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.linear-text2 {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #f46900 -11.57%, #fb8a00 99.96%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blur-background {
+  backdrop-filter: blur(
+    5px
+  ); /* Adjust the pixel value for the desired blur effect */
 }
