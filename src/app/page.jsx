@@ -53,9 +53,10 @@ const page = () => {
           </p>
         </Marquee>
       </div>
-      <div className="flex flex-wrap gap-x-10 max-w-6xl mx-auto px-6 ">
-        <div>
-          <img src="/code.png" alt="" srcset="" />
+      <div className="flex md:flex-nowrap justify-center items-center flex-wrap gap-x-10 max-w-6xl mx-auto px-6 ">
+        <div className="md:max-w-[50%]">
+        <video src="/video.mp4" autoplay muted  loop alt=""></video>
+
         </div>
         <div className="flex flex-col gap-y-6 md:max-w-[50%] w-full mt-4">
           <div className="border-b border-gray-600 pb-6">
