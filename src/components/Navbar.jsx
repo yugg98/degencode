@@ -37,7 +37,9 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-shrink-0 items-center">
+                <Link href="/">
                 <img className="h-8 w-auto" src="logo.svg" alt="Your Company" />
+                </Link>
               </div>
               <div className="hidden sm:ml-6 sm:block ">
                 <div className="flex space-x-4">
