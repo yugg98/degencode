@@ -54,22 +54,19 @@ export default function Home() {
               <img src="/icons/set.svg" alt="" class="inline-block h-16" />
               <p class="text-2xl text-white font-semibold">Exposure</p>
               <p class="text-sm text-gray-100">
-              Bizarrely cool marketing strategies, imagine blasting off!
+                Bizarrely cool marketing strategies, imagine blasting off!
               </p>
             </div>
             <div class="grid gap-2 border border-solid hover:border-[#F46900] rounded-sm p-8 md:p-10">
               <img src="/icons/set.svg" alt="" class="inline-block h-16" />
               <p class="text-2xl text-white font-semibold">Innovative</p>
-              <p class="text-sm text-gray-100">
-              Crypto meets buzz, that’s us!
-
-              </p>
+              <p class="text-sm text-gray-100">Crypto meets buzz, that’s us!</p>
             </div>
             <div class="grid gap-2 border border-solid hover:border-[#F46900] rounded-sm p-8 md:p-10">
               <img src="/icons/set.svg" alt="" class="inline-block h-16" />
               <p class="text-2xl text-white font-semibold">Reliable</p>
               <p class="text-sm text-gray-100">
-              Our dazzling results will leave you stunned
+                Our dazzling results will leave you stunned
               </p>
             </div>
           </div>
@@ -84,44 +81,36 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-20">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
+                50+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                thriving communities we’ve super-charged
               </p>
             </div>
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
+                15M+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                Funds raised
               </p>
             </div>
           </div>
           <div className="grid md:grid-cols-3 my-10 gap-8">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
+                9
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                Launchpad Partners
               </p>
             </div>
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 rounded-3xl col-span-2 py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
+                1000%
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
-              </p>
-            </div>
-            <div className="bg-white/10 rounded-3xl py-16">
-              <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
-              </p>
-              <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                average ROI of our growth hacks
               </p>
             </div>
           </div>
@@ -130,44 +119,36 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-20">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
+                500k+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                degens reached
               </p>
             </div>
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text2">
-                29+
+                10+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                Years of Experience
               </p>
             </div>
           </div>
           <div className="grid md:grid-cols-3 my-10 gap-8">
             <div className="bg-white/10 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text">
-                29+
+                10
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                Team Members
               </p>
             </div>
-            <div className="bg-white/10 rounded-3xl py-16">
+            <div className="bg-white/10 col-span-2 rounded-3xl py-16">
               <p className="text-5xl font-silkscreen text-center linear-text">
-                29+
+                150+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
-              </p>
-            </div>
-            <div className="bg-white/10 rounded-3xl py-16">
-              <p className="text-5xl font-silkscreen text-center linear-text">
-                29+
-              </p>
-              <p className="text-3xl text-center mt-8 text-white">
-                Indra and Rozencrantz
+                Partnerships Closed
               </p>
             </div>
           </div>
@@ -175,12 +156,12 @@ export default function Home() {
       </div>
       <div className="max-w-7xl mx-auto my-20 p-6">
         <p className="md:text-6xl text-3xl font-silkscreen linear-text2 max-w-3xl">
-        Public Raise Degen Style
-
+          Public Raise Degen Style
         </p>
         <p className="text-white md:text-2xl text-xl max-w-6xl mt-4">
-        Public raise? Yeah, we do it, but we do it Degen style. Token launches, NFT madness, and blockchain wizardry – we&apos;re the chaos architects that&apos;ll make your raise unforgettable.
-
+          Public raise? Yeah, we do it, but we do it Degen style. Token
+          launches, NFT madness, and blockchain wizardry – we&apos;re the chaos
+          architects that&apos;ll make your raise unforgettable.
         </p>
       </div>
 
@@ -203,45 +184,27 @@ export default function Home() {
               <div className="mt-10">
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Content Curation</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">TG 10k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Twitter 5k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
-                </div>
-              </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
-                LFG!
-              </button>
-            </li>
-            <li class="flex max-w-md flex-col items-start justify-between  p-8">
-              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
-                Gras Design
-              </h2>
-              <div className="mt-10">
-                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Partnerships</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Public Raise</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
-                </div>
-                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Guaranteed Volume</p>
                 </div>
               </div>
               <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
@@ -249,25 +212,63 @@ export default function Home() {
               </button>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
-                Gras Design
-              </h2>
+              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">GRAS Degen</h2>
               <div className="mt-10">
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Content Curation</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">TG 25k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Twitter 10k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Premium Designs</p>
+                  <p class="text-white/20 text-lg">Partnerships</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Public Raise</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Guaranteed Volume</p>
+                </div>
+              </div>
+              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+                LFG!
+              </button>
+            </li>
+            <li class="flex max-w-md flex-col items-start justify-between  p-8">
+              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">GRAS WILD</h2>
+              <div className="mt-10">
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Content Curation</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">TG 50k+</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Twitter 20k+</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Partnerships</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Public Raise</p>
+                </div>
+                <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
+                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
+                  <p class="text-white/20 text-lg">Guaranteed Volume</p>
                 </div>
               </div>
               <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
