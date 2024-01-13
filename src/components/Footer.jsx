@@ -1,11 +1,10 @@
 const navigation = {
     main: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
-      { name: 'Accessibility', href: '#' },
-      { name: 'Partners', href: '#' },
+        { name: "Home", href: "/", current: true },
+        { name: "Technology", href: "/technology", current: false },
+        { name: "Marketing", href: "/marketing", current: false },
+        { name: "MarketMaking", href: "/marketmaking", current: false },
+        { name: "Incubation", href: "/incubation", current: false },
     ],
     social: [
       {
@@ -85,16 +84,16 @@ const navigation = {
               </div>
             ))}
           </nav>
-          <div className="mt-10 flex justify-center space-x-10">
+          {/* <div className="mt-10 flex justify-center space-x-10">
             {navigation.social.map((item) => (
               <a key={item.name} href={item.href} className="text-gray-100 hover:text-gray-200">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
-          </div>
+          </div> */}
           <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; 2023 DEGEN CODE, Inc. All rights reserved.
           </p>
         </div>
       </footer>
