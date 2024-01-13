@@ -1,8 +1,4 @@
 "use client";
-import Contactus from "@/components/Contact";
-import Services, { OtherSerices } from "@/components/Services";
-import { ArrowRightIcon, CheckCircleIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
@@ -179,7 +175,7 @@ export default function Home() {
         </p>
         <p className="text-white text-2xl max-w-6xl mt-4">
           Yeah, we do it, but we do it Degen style. Token launches, NFT madness,
-          and blockchain wizardry – we're the chaos architects that'll make your
+          and blockchain wizardry – we&apos;re the chaos architects that&apos;ll make your
           raise unforgettable.
         </p>
       </div>
@@ -191,8 +187,8 @@ export default function Home() {
           </h2>
 
           <p class="mx-auto mb-8 mt-4 max-w-3xl text-2xl text-center text-white md:mb-12 lg:mb-16">
-            We're not serving growth; we're unleashing a degen revolution. Get
-            hyped for a digital thrill ride that's about to turn your brand into
+            We&apos;re not serving growth; we&apos;re unleashing a degen revolution. Get
+            hyped for a digital thrill ride that&apos;s about to turn your brand into
             the ultimate flex
           </p>
           <ul class="grid w-full grid-cols-1 gap-8 md:grid-cols-3 md:gap-4 ">

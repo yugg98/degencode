@@ -21,28 +21,28 @@ const page = () => {
           <div className="border-b border-gray-600 pb-6">
             <p className="text-4xl font-silkscreen linear-text2">Incubation</p>
             <p className="text-md mt-2 text-white">
-              Decade Dive: Incubating and Investing, Capturing a Decade's
+              Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
               Innovation in a Single Leap!
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
             <p className="text-4xl font-silkscreen linear-text2">Incubation</p>
             <p className="text-md mt-2 text-white">
-              Decade Dive: Incubating and Investing, Capturing a Decade's
+              Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
               Innovation in a Single Leap!
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
             <p className="text-4xl font-silkscreen linear-text2">Incubation</p>
             <p className="text-md mt-2 text-white">
-              Decade Dive: Incubating and Investing, Capturing a Decade's
+              Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
               Innovation in a Single Leap!
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
             <p className="text-4xl font-silkscreen linear-text2">Incubation</p>
             <p className="text-md mt-2 text-white">
-              Decade Dive: Incubating and Investing, Capturing a Decade's
+              Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
               Innovation in a Single Leap!
             </p>
           </div>

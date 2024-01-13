@@ -14,16 +14,16 @@ const page = () => {
            
         </p>
         <p className="text-white mt-4 md:text-xl text-lg max-w-5xl">
-          the secret sauce that transforms startups into titans! Here's the
+          the secret sauce that transforms startups into titans! Here&apos;s the
           lowdown: beyond the cutting-edge tech, strategic marketing, and
-          market-making wizardry we're already bringing to the table, our
+          market-making wizardry we&apos;re already bringing to the table, our
           incubation support adds a sprinkle of pure magic.
           <br />
           <br />
-          We don't babysit startups; we catapult them into the stratosphere.
-          Imagine a space that's not just an incubator but a wild mix of
+          We don&apos;t babysit startups; we catapult them into the stratosphere.
+          Imagine a space that&apos;s not just an incubator but a wild mix of
           creative chaos, killer mentorship, and vibes that scream success. Our
-          incubation program isn't for the faint-hearted; it's for those ready
+          incubation program isn&apos;t for the faint-hearted; it&apos;s for those ready
           to ride the degen wave to startup stardom. 
         </p>
       </div>

@@ -1,6 +1,6 @@
 "use client"
-import Contactus from "@/components/Contact";
-import Services, { OtherSerices } from "@/components/Services";
+import Contactus from "../components/Contact";
+import Services, { OtherSerices } from "../components/Services";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
@@ -14,12 +14,12 @@ export default function Home() {
            
         </p>
         <p className="text-white mt-4 md:text-2xl text-xl max-w-5xl">
-          At Degencode, we're slinging blockchain wizardry and crafting
+          At Degencode, we&apos;re slinging blockchain wizardry and crafting
           decentralised coolness that puts the ordinary to shame.
         </p>
         <p className="text-white text-base mt-2 max-w-5xl">
-          Buckle up, because at Degencode, we're not just riding the wave –
-          we're turning it into a party. The future has a front-row seat for
+          Buckle up, because at Degencode, we&apos;re not just riding the wave –
+          we&apos;re turning it into a party. The future has a front-row seat for
           your fabulousness; are you ready to steal the show?
         </p>
       </div>
@@ -33,8 +33,8 @@ export default function Home() {
               cutting-edge Web3 Tech Development services. Seamlessly blending
               creativity with technical prowess, we transform visionary concepts
               into tangible digital realities. From pioneering blockchain
-              solutions to architecting decentralised platforms, we're not just
-              developers; we're the architects of the future digital landscape..
+              solutions to architecting decentralised platforms, we&apos;re not just
+              developers; we&apos;re the architects of the future digital landscape..
             </p>
           </div>
         </div>
@@ -58,10 +58,10 @@ export default function Home() {
             <p className="md:text-5xl text-3xl md:mt-0 mt-4 text-white">Real World Assets (RWA)</p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
               At Degencode, our Web3 RWA Tokenization services are not just
-              flipping the script; we're turning it into a blockbuster. We don't
+              flipping the script; we&apos;re turning it into a blockbuster. We don&apos;t
               tokenize assets; we transform them into blockchain legends. 
-              Transparency, liquidity, accessibility – they're not features;
-              they're our entourage. Why Degencode? It's where the real world
+              Transparency, liquidity, accessibility – they&apos;re not features;
+              they&apos;re our entourage. Why Degencode? It&apos;s where the real world
               gets a digital makeover.
             </p>
           </div>
@@ -75,8 +75,8 @@ export default function Home() {
               Our advisory services are a strategic fusion of wisdom and
               innovation, providing insights that transcend the ordinary. From
               navigating blockchain landscapes to optimising decentralised
-              ecosystems, we're the captains of your digital voyage. At
-              Degencode, we're not just advisors; we're your partners in
+              ecosystems, we&apos;re the captains of your digital voyage. At
+              Degencode, we&apos;re not just advisors; we&apos;re your partners in
               pioneering the next era of digital transformation. Elevate your
               strategy with a touch of Web3 brilliance – where every decision is
               a leap into the extraordinary.
@@ -93,10 +93,10 @@ export default function Home() {
             </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
               At Degencode, our Web3 RWA Tokenization services are not just
-              flipping the script; we're turning it into a blockbuster. We don't
+              flipping the script; we&apos;re turning it into a blockbuster. We don&apos;t
               tokenize assets; we transform them into blockchain legends. 
-              Transparency, liquidity, accessibility – they're not features;
-              they're our entourage. Why Degencode? It's where the real world
+              Transparency, liquidity, accessibility – they&apos;re not features;
+              they&apos;re our entourage. Why Degencode? It&apos;s where the real world
               gets a digital makeover.
             </p>
           </div>
@@ -107,10 +107,10 @@ export default function Home() {
       <div className="my-20 ">
         <p className="md:text-3xl text-xl md:leading-10 px-5 text-white max-w-6xl text-center mx-auto">
           Ready to turn your digital dreams into reality? Unleash the power of
-          innovation with Degencode's Tech Development Services. Whether it's
-          blockchain brilliance or crafting decentralized wonders, we've got the
-          tech prowess to make it happen. Let's redefine possibilities together.
-          Reach out to us now and let's build the future you envision! 
+          innovation with Degencode&apos;s Tech Development Services. Whether it&apos;s
+          blockchain brilliance or crafting decentralized wonders, we&apos;ve got the
+          tech prowess to make it happen. Let&apos;s redefine possibilities together.
+          Reach out to us now and let&apos;s build the future you envision! 
         </p>
         <button className="mx-auto shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-950 linear-text ">
           Sign Up Now!
