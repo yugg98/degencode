@@ -177,7 +177,7 @@ export default function Home() {
 
         </p>
         <p className="text-white md:text-2xl text-xl max-w-6xl mt-4">
-        Public raise? Yeah, we do it, but we do it Degen style. Token launches, NFT madness, and blockchain wizardry – we're the chaos architects that'll make your raise unforgettable.
+        Public raise? Yeah, we do it, but we do it Degen style. Token launches, NFT madness, and blockchain wizardry – we&apos;re the chaos architects that&apos;ll make your raise unforgettable.
 
         </p>
       </div>

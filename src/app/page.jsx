@@ -28,7 +28,7 @@ const page = () => {
           <div className="border-b border-gray-600 pb-6">
             <p className="text-4xl font-silkscreen linear-text2">Technology</p>
             <p className="text-md mt-2 text-white">
-            TechLeap & Innovate: Propelling a Decade's Breakthroughs, One Innovation at a Time! 
+            TechLeap & Innovate: Propelling a Decade&apos;s Breakthroughs, One Innovation at a Time! 
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">

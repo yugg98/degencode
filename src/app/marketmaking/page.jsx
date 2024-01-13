@@ -44,7 +44,7 @@ const page = () => {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-7xl mx-auto">
         <p className="md:text-3xl text-xl md:leading-10  text-white max-w-6xl  ">
-        Ready to revolutionise your market presence? Elevate your tokens with Degencode's Market Making Services – where liquidity meets innovation. Let's amplify your impact in the digital arena. Contact us now and let's make waves together! 
+        Ready to revolutionise your market presence? Elevate your tokens with Degencode&apos;s Market Making Services – where liquidity meets innovation. Let&apos;s amplify your impact in the digital arena. Contact us now and let&apos;s make waves together! 
 
         </p>
         <p className="text-white text-xl max-w-4xl mt-4">Elevate your tokens with Degencode&apos;s Market Making Services – where liquidity meets innovation. Let&apos;s amplify your impact in the digital arena. </p>
