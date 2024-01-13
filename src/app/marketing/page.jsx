@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import Spline from "@splinetool/react-spline";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
@@ -78,8 +79,29 @@ export default function Home() {
       <div className="max-w-7xl mx-auto my-20 px-6">
         <p className="md:text-6xl text-4xl font-silkscreen linear-text2 max-w-3xl">
           Our Star Duo at your Service
+         
         </p>
         <p className="text-white text-2xl mt-4">Our Star Duo at your Service</p>
+        <div class="mx-auto max-w-7xl  px-5 py-16 md:px-10 md:py-24 ">
+          <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3 ">
+            <Link  target="_blank" href="https://t.me/Indra6683">
+            <div class="grid gap-2 border border-solid border-[#F46900] hover:scale-95 rounded-sm p-8 md:p-10">
+              <img src="https://framerusercontent.com/images/IsDVm3aRwza3Avbta2V3YqgZXSw.jpg?scale-down-to=512" alt="" class="inline-block rounded-full h-16" />
+              <p class="text-2xl text-white font-silkscreen font-semibold">Indra</p>
+              <p class="text-sm text-gray-100">
+              Public raise Ninja
+              </p>
+            </div>
+            </Link>
+            <Link target="_blank" href="https://t.me/ryuk6911">
+            <div class="grid gap-2 border border-solid border-[#F46900] hover:scale-95 rounded-sm p-8 md:p-10">
+              <img src="https://framerusercontent.com/images/Q4nmlWzK3H4v01GmmgiWpHIiIeQ.jpg?scale-down-to=512" alt="" class="inline-block h-16" />
+              <p class="text-2xl text-white font-silkscreen font-semibold">Ryuk</p>
+              <p class="text-sm text-gray-100">Grwoth Hacker</p>
+            </div>
+            </Link>
+          </div>
+        </div>
         <div className="my-10">
           <div className="grid md:grid-cols-2 gap-20">
             <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
@@ -181,100 +203,100 @@ export default function Home() {
           </p>
           <ul class="grid w-full grid-cols-1 gap-8 md:grid-cols-3 md:gap-4 ">
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">
+              <h2 class=" text-[#F46900] font-silkscreen font-semibold text-3xl">
                 Gras Starter
               </h2>
               <div className="mt-10">
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Content Curation</p>
+                  <p class="text-white font-silkscreen text-lg">Content Curation</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">TG 10k+</p>
+                  <p class="text-white font-silkscreen text-lg">TG 10k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Twitter 5k+</p>
+                  <p class="text-white font-silkscreen text-lg">Twitter 5k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Partnerships</p>
+                  <p class="text-white font-silkscreen text-lg">Partnerships</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Public Raise</p>
+                  <p class="text-white font-silkscreen text-lg">Public Raise</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Guaranteed Volume</p>
+                  <p class="text-white font-silkscreen text-lg">Guaranteed Volume</p>
                 </div>
               </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+              <button className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
                 LFG!
               </button>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">GRAS Degen</h2>
+              <h2 class=" text-[#F46900] font-silkscreen font-semibold text-3xl">GRAS Degen</h2>
               <div className="mt-10">
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Content Curation</p>
+                  <p class="text-white font-silkscreen text-lg">Content Curation</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">TG 25k+</p>
+                  <p class="text-white font-silkscreen text-lg">TG 25k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Twitter 10k+</p>
+                  <p class="text-white font-silkscreen text-lg">Twitter 10k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Partnerships</p>
+                  <p class="text-white font-silkscreen text-lg">Partnerships</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Public Raise</p>
+                  <p class="text-white font-silkscreen text-lg">Public Raise</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Guaranteed Volume</p>
+                  <p class="text-white font-silkscreen text-lg">Guaranteed Volume</p>
                 </div>
               </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+              <button className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
                 LFG!
               </button>
             </li>
             <li class="flex max-w-md flex-col items-start justify-between  p-8">
-              <h2 class=" text-[#4ECDC4] font-semibold text-3xl">GRAS WILD</h2>
+              <h2 class=" text-[#F46900] font-silkscreen font-semibold text-3xl">GRAS WILD</h2>
               <div className="mt-10">
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
-                  <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Content Curation</p>
+                  <CheckCircleIcon className="w-6 h-6 text-white/60" />
+                  <p class="text-white font-silkscreen text-lg">Content Curation</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">TG 50k+</p>
+                  <p class="text-white font-silkscreen text-lg">TG 50k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Twitter 20k+</p>
+                  <p class="text-white font-silkscreen text-lg">Twitter 20k+</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Partnerships</p>
+                  <p class="text-white font-silkscreen text-lg">Partnerships</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Public Raise</p>
+                  <p class="text-white font-silkscreen text-lg">Public Raise</p>
                 </div>
                 <div class="mt-2 flex flex-row items-center gap-x-2 text-left">
                   <CheckCircleIcon className="w-6 h-6 text-white/20" />
-                  <p class="text-white/20 text-lg">Guaranteed Volume</p>
+                  <p class="text-white font-silkscreen text-lg">Guaranteed Volume</p>
                 </div>
               </div>
-              <button className="bg-[#4ECDC4] p-4 py-3 rounded-xl mt-10">
+              <button className="bg-[#F46900] font-silkscreen p-4 py-3 rounded-xl mt-10">
                 LFG!
               </button>
             </li>
@@ -286,8 +308,8 @@ export default function Home() {
           Had enough of ordinary? It’s time for the extraordinary. Join us on
           this wild ride.
         </p>
-        <button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-purple-950 linear-text ">
-          Sign Up Now!
+        <button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-orange-600 text-orange-600 ">
+         HMU!
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -310,8 +332,8 @@ export default function Home() {
                 y2="10.8615"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#4646FB" />
-                <stop offset="1" stop-color="#BE4DFF" />
+                <stop stop-color="#F46900" />
+                <stop offset="1" stop-color="#F46900" />
               </linearGradient>
             </defs>
           </svg>{" "}
