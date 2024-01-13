@@ -1,7 +1,47 @@
+"use clien";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
 const page = () => {
+  const logos = [
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1532024598040018945/YwmR8m5s_400x400.jpg",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1390675212581097473/Zjzkwdqm_400x400.jpg",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1534237146990759943/FN6pMdA__400x400.png",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1666332463080300545/ShTbd9G5_400x400.jpg",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1534390710275014656/u6OEhKy2_400x400.jpg",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1555927388051374080/uqbZ5P61_400x400.jpg",
+    },
+
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1592476572958744576/lPAlmKQM_400x400.jpg",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1729593467406295040/j9NjoBKH_400x400.jpg",
+    },
+    {
+      name: "",
+      logo: "https://pbs.twimg.com/profile_images/1609906456446504960/gmjKNWHi_400x400.jpg",
+    },
+  ];
   return (
     <main className="max-h-screen">
       <div className="my-4">
@@ -28,7 +68,8 @@ const page = () => {
           <div className="border-b border-gray-600 pb-6">
             <p className="text-3xl font-silkscreen linear-text2">Technology</p>
             <p className="text-md mt-2 text-white">
-            TechLeap & Innovate: Propelling a Decade&apos;s Breakthroughs, One Innovation at a Time! 
+              TechLeap & Innovate: Propelling a Decade&apos;s Breakthroughs, One
+              Innovation at a Time!
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
@@ -36,8 +77,8 @@ const page = () => {
               Marketing and Public Raise
             </p>
             <p className="text-md mt-2 text-white">
-            Catalyst Community: Igniting Innovation, Fueling Vibrant Communities! 
-
+              Catalyst Community: Igniting Innovation, Fueling Vibrant
+              Communities!
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
@@ -45,54 +86,31 @@ const page = () => {
               Market Making
             </p>
             <p className="text-md mt-2 text-white">
-            Mastering Markets with a Side of Financial and Token Management Expertise! 
-
+              Mastering Markets with a Side of Financial and Token Management
+              Expertise!
             </p>
           </div>
         </div>
       </div>
 
       <div className="my-10 ">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <p className="text-xl font-semibold text-center text-white mb-6">
-            Our Previous Clients
+        <div className="mx-auto flex max-w-6xl px-6 lg:px-8">
+          <p className="text-xl font-semibold  text-white mb-6">
+            Our Previous <br /> Clients
           </p>
-          <div className="mx-auto mt-6 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-              alt="Transistor"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-              alt="Reform"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-              alt="Tuple"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-              alt="SavvyCal"
-              width={158}
-              height={48}
-            />
-            <img
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-              alt="Statamic"
-              width={158}
-              height={48}
-            />
+          <div className="flex gap-x-10 justify-between ml-10">
+            <Marquee>
+              {logos.map((item, index) => (
+                <img
+                  key={index}
+                  className="col-span-2 mix-blend max-h-12 w-full object-contain lg:col-span-1"
+                  src={item.logo}
+                  alt="Transistor"
+                  width={158}
+                  height={48}
+                />
+              ))}
+            </Marquee>
           </div>
         </div>
       </div>
