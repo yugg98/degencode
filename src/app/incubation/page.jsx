@@ -1,4 +1,6 @@
 "use client";
+import Footer from "../../components/Footer";
+
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
@@ -6,7 +8,7 @@ const page = () => {
   return (
     <div>
       <div className="md:px-20 px-4 bg-white/10 py-10 pb-20">
-        <p className="md:text-7xl text-5xl py-4 linear-text2  font-silkscreen">
+        <p className="md:text-6xl text-5xl py-4 linear-text2 leading-10  font-silkscreen">
           <TypeAnimation
             sequence={["Welcome to Degencode's Incubation Support"]}
             repeat={"infinity"}
@@ -112,6 +114,7 @@ const page = () => {
 
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

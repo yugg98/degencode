@@ -1,4 +1,5 @@
 "use client"
+import Footer from "../../components/Footer";
 import Contactus from "../../components/Contact";
 import Services, { OtherSerices } from "../../components/Services";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
@@ -146,6 +147,7 @@ export default function Home() {
       <div className="my-10">
       <Contactus/>
       </div>
+      <Footer />
     </div>
   );
 }

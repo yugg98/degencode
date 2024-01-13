@@ -3,11 +3,11 @@ import Marquee from "react-fast-marquee";
 
 const page = () => {
   return (
-    <main>
-      <div className="my-10">
+    <main className="max-h-screen">
+      <div className="my-4">
         <Marquee>
-          <p className="font-silkscreen text-6xl mx-4 text-white">Degen Code</p>
-          <p className="text-6xl  text-gray-800 font-bold">
+          <p className="font-silkscreen text-4xl mx-4 text-white">Degen Code</p>
+          <p className="text-4xl  text-gray-800 font-bold">
             Unleashing Tomorrow, Today – Where Innovation Meets the Digital
             Revolution!
           </p>
@@ -19,20 +19,20 @@ const page = () => {
         </div>
         <div className="flex flex-col gap-y-6 md:max-w-[50%] w-full mt-4">
           <div className="border-b border-gray-600 pb-6">
-            <p className="text-4xl font-silkscreen linear-text2">Incubation</p>
+            <p className="text-3xl font-silkscreen linear-text2">Incubation</p>
             <p className="text-md mt-2 text-white">
               Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
               Innovation in a Single Leap!
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
-            <p className="text-4xl font-silkscreen linear-text2">Technology</p>
+            <p className="text-3xl font-silkscreen linear-text2">Technology</p>
             <p className="text-md mt-2 text-white">
             TechLeap & Innovate: Propelling a Decade&apos;s Breakthroughs, One Innovation at a Time! 
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
-            <p className="text-4xl font-silkscreen linear-text2">
+            <p className="text-3xl font-silkscreen linear-text2">
               Marketing and Public Raise
             </p>
             <p className="text-md mt-2 text-white">
@@ -41,7 +41,7 @@ const page = () => {
             </p>
           </div>
           <div className="border-b border-gray-600 pb-6">
-            <p className="text-4xl font-silkscreen linear-text2">
+            <p className="text-3xl font-silkscreen linear-text2">
               Market Making
             </p>
             <p className="text-md mt-2 text-white">

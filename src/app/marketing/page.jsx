@@ -1,4 +1,6 @@
 "use client";
+import Footer from "../../components/Footer";
+
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import { TypeAnimation } from "react-type-animation";
 
@@ -311,6 +313,7 @@ export default function Home() {
           </svg>{" "}
         </button>
       </div>
+      <Footer />
     </div>
   );
 }
