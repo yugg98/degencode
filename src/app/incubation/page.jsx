@@ -64,7 +64,7 @@ const page = () => {
                 <p className="text-lg text-white">Total Takeoff Support</p>
                 <p className="text-gray-700">
                   {" "}
-                  From pitch to deal, we've got your back. Your success is our
+                  From pitch to deal, we&apos;ve got your back. Your success is our
                   degen mission.
                 </p>
               </div>
@@ -93,7 +93,7 @@ const page = () => {
               <div>
                 <p className="text-lg text-white">Strategic Code Jitsu</p>
                 <p className="text-gray-700">
-                  We're not just coding; we're architecting a tech revolution.
+                  We&apos;re not just coding; we&apos;re architecting a tech revolution.
                 </p>
               </div>
             </div>
@@ -117,14 +117,14 @@ const page = () => {
               <div>
                 <p className="text-lg text-white">Community Cult Vibes</p>
                 <p className="text-gray-700">
-                We're tribe architects. Fostering communities that rally hard behind your project – expect nothing less.
+                We&apos;re tribe architects. Fostering communities that rally hard behind your project – expect nothing less.
 
                 </p>
               </div>
               <div>
                 <p className="text-lg text-white">Influencer Overdrive</p>
                 <p className="text-gray-700">
-                Turning influencers into your project's hype squad.
+                Turning influencers into your project&apos;s hype squad.
 
                 </p>
               </div>
@@ -147,7 +147,7 @@ const page = () => {
               <div>
                 <p className="text-lg text-white">Dynamic Token Valuation</p>
                 <p className="text-gray-700">
-                We sculpt dynamic valuations that reflect your project's true potential.
+                We sculpt dynamic valuations that reflect your project&apos;s true potential.
 
                 </p>
               </div>
