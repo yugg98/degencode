@@ -78,7 +78,7 @@ export default function Example() {
                   </div>
                 </div>
 
-                <div className="flex items-center absolute inset-y-0 right-0 outline-none">
+                <div className="flex items-center absolute right-0 inset-y-0  outline-none">
                   <Popover className="">
                     <Popover.Button className="bg-white rounded-sm p-6 mx-4">
                       Get In Touch
@@ -95,7 +95,7 @@ export default function Example() {
                     >
                       <Popover.Panel
                         as="nav"
-                        className="absolute border-t h-screen border-gray-700 bg-black  md:right-[-150px] left-[-116px]  md:w-[50vw] w-full  z-20"
+                        className="absolute border-t h-screen border-gray-700 bg-black  right-[-150px] md:left-[-416px] left-[-116px]  md:w-[50vw] w-full  z-20"
                         aria-label="Global"
                       >
                         <div className="flex w-screen">
@@ -104,7 +104,7 @@ export default function Example() {
                               <XMarkIcon className="w-8 h-8 text-white font-semibold mx-4" />
                             </Popover.Button>
                           </div>
-                          <div className="mx-auto max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4 bg-gray-900">
+                          <div className=" max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4 bg-gray-900">
                             <div className="ml-2 ">
                               <img src="/logo.svg" alt="" srcset="" />
                             </div>

@@ -217,7 +217,7 @@ export const FloatingForm = () => {
     onSubmit={handleSubmit}
     className="md:py-16 py-10 md:px-10  px-4 "
   >
-    <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+    <div className=" max-w-xl lg:mr-0 lg:max-w-lg">
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <div className="gr-1 absolute" />
