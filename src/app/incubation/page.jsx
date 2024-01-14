@@ -36,7 +36,6 @@ const page = () => {
         <div class="relative py-16 md:py-24 lg:py-32">
           <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
-              <img src="/fund.png" alt="" srcset="" />
               <div>
                 <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
                   Fundraising
@@ -72,111 +71,109 @@ const page = () => {
                   </div>
                 </div>
               </div>
+              <img src="/fund.png" className="sticky top-20" alt="" srcset="" />
+
             </div>
           </div>
-            <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
-              <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
-              <img src="/tech.png" alt="" srcset="" />
-                
-                <div>
-                  <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
-                    Tech Sorcery
-                  </p>
-                  <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
-                    <div>
-                      <p className="text-lg text-white">Pixel Precision MVPs</p>
-                      <p className="text-gray-700">
-                        MVPs so sharp, they cut through the noise like a tech
-                        ninja.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-lg text-white">
-                        Full-Stack Brilliance
-                      </p>
-                      <p className="text-gray-700">
-                        Gandalf-level full-stack wizardry for a robust tech
-                        foundation.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-lg text-white">Strategic Code Jitsu</p>
-                      <p className="text-gray-700">
-                        We&apos;re not just coding; we&apos;re architecting a
-                        tech revolution.
-                      </p>
-                    </div>
+          <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+            <div className="flex justify-end sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
+              <div className="">
+                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                  Tech Sorcery
+                </p>
+                <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
+                  <div>
+                    <p className="text-lg text-white">Pixel Precision MVPs</p>
+                    <p className="text-gray-700">
+                      MVPs so sharp, they cut through the noise like a tech
+                      ninja.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-white">Full-Stack Brilliance</p>
+                    <p className="text-gray-700">
+                      Gandalf-level full-stack wizardry for a robust tech
+                      foundation.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-white">Strategic Code Jitsu</p>
+                    <p className="text-gray-700">
+                      We&apos;re not just coding; we&apos;re architecting a tech
+                      revolution.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
-          <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
-            <img src="/marketing.png" alt="" srcset="" />
-            <div>
-              <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
-                Marketing and Public Raise
-              </p>
-              <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
-                <div>
-                  <p className="text-lg text-white">
-                    Targeted Public Raise Campaigns
-                  </p>
-                  <p className="text-gray-700">
-                    targeted campaigns that hit hard, driving contributions like
-                    a degen force.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-lg text-white">Community Cult Vibes</p>
-                  <p className="text-gray-700">
-                    We&apos;re tribe architects. Fostering communities that
-                    rally hard behind your project – expect nothing less.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-lg text-white">Influencer Overdrive</p>
-                  <p className="text-gray-700">
-                    Turning influencers into your project&apos;s hype squad.
-                  </p>
+          </div>
+          <div class="sticky right-0 top-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+            <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
+              <div>
+                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                  Marketing and Public Raise
+                </p>
+                <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
+                  <div>
+                    <p className="text-lg text-white">
+                      Targeted Public Raise Campaigns
+                    </p>
+                    <p className="text-gray-700">
+                      targeted campaigns that hit hard, driving contributions
+                      like a degen force.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-white">Community Cult Vibes</p>
+                    <p className="text-gray-700">
+                      We&apos;re tribe architects. Fostering communities that
+                      rally hard behind your project – expect nothing less.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-white">Influencer Overdrive</p>
+                    <p className="text-gray-700">
+                      Turning influencers into your project&apos;s hype squad.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
-          <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
-          <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
-          <img src="/m2.png" alt="" srcset="" />
-            
-            <div>
-              <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
-                Market Making
-              </p>
-              <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
-                <div>
-                  <p className="text-lg text-white">Liquidity Lightning</p>
-                  <p className="text-gray-700">
-                    Craft liquidity experiences that turn heads. Our token
-                    management ensures seamless trading and vibrant markets.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-lg text-white">Dynamic Token Valuation</p>
-                  <p className="text-gray-700">
-                    We sculpt dynamic valuations that reflect your
-                    project&apos;s true potential.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-lg text-white">Market Insight Mastery</p>
-                  <p className="text-gray-700">
-                    Numbers talk, trends walk. Dive into market insights that
-                    steer your strategy in the right direction.
-                  </p>
+          <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+            <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
+
+              <div>
+                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                  Market Making
+                </p>
+                <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
+                  <div>
+                    <p className="text-lg text-white">Liquidity Lightning</p>
+                    <p className="text-gray-700">
+                      Craft liquidity experiences that turn heads. Our token
+                      management ensures seamless trading and vibrant markets.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-white">
+                      Dynamic Token Valuation
+                    </p>
+                    <p className="text-gray-700">
+                      We sculpt dynamic valuations that reflect your
+                      project&apos;s true potential.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-white">Market Insight Mastery</p>
+                    <p className="text-gray-700">
+                      Numbers talk, trends walk. Dive into market insights that
+                      steer your strategy in the right direction.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
