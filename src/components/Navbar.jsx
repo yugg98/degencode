@@ -26,11 +26,12 @@ module.exports = {
 }
 ```
 */
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FloatingForm } from "./Contact";
+import Link from "next/link";
 
 const user = {
   name: "Chelsea Hagon",
@@ -44,12 +45,15 @@ const navigation = [
   { name: "Marketing & Public Raise", href: "/marketing", current: false },
   { name: "Market Making", href: "/marketmaking", current: false },
   { name: "Incubation", href: "/incubation", current: false },
+  { name: "Join Dc", href: "#", current: false },
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="border border-gray-700 z-20">
       {/* When the mobile menu is open, add `overflow-hidden` to the `body` element to prevent double scrollbars */}
@@ -80,7 +84,7 @@ export default function Example() {
 
                 <div className="flex items-center absolute right-0 inset-y-0  outline-none">
                   <Popover className="">
-                    <Popover.Button className="bg-white rounded-sm p-6 py-2 mx-4">
+                    <Popover.Button onClick={()=>setIsOpen(true)} className="bg-white rounded-sm p-6 py-2 mx-4">
                       Get In Touch
                     </Popover.Button>
 
@@ -98,19 +102,21 @@ export default function Example() {
                         className="absolute border-t h-screen border-gray-700 bg-black  right-[-150px] md:left-[-416px] left-[-116px]  md:w-[50vw] w-full  z-20"
                         aria-label="Global"
                       >
+                        {isOpen && (
                         <div className="flex w-screen">
                           <div className="border-r h-screen h pt-4">
                             <Popover.Button>
                               <XMarkIcon className="w-8 h-8 text-white font-semibold mx-4" />
                             </Popover.Button>
                           </div>
-                          <div className=" max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4 bg-gray-900">
+                          <div className=" max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4 bg-black">
                             <div className="ml-2 ">
                               <img src="/logo.svg" alt="" srcset="" />
                             </div>
-                            <FloatingForm/>
+                            <FloatingForm />
                           </div>
                         </div>
+                        )}
                       </Popover.Panel>
                     </Transition>
                   </Popover>
@@ -164,7 +170,11 @@ export default function Example() {
                         {item.name}
                       </a>
                     ))}
+                    <Popover.Button className="w-full">
+                   
+                  </Popover.Button>
                   </div>
+                  
                 </div>
               </Popover.Panel>
             </Transition>

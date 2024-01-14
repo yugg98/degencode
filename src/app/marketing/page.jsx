@@ -5,6 +5,7 @@ import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import Spline from "@splinetool/react-spline";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import CalendlyWidget from "../../components/Calendly";
 
 export default function Home() {
   return (
@@ -376,6 +377,7 @@ export default function Home() {
           </svg>{" "}
         </button>
       </div>
+      <CalendlyWidget/>
       <Footer />
     </div>
   );

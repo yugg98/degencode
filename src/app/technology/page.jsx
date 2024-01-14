@@ -6,6 +6,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import Spline from "@splinetool/react-spline";
+import CalendlyWidget from "../../components/Calendly";
 
 export default function Home() {
   return (
@@ -83,7 +84,7 @@ export default function Home() {
       </div>
       <div className=" py-20 my-20 px-4">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center max-w-5xl mx-auto  gap-x-20  ">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 my-6">
             <p className="md:text-5xl text-3xl text-white">
               Advisory and Consultation
             </p>
@@ -99,8 +100,8 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="md:w-1/2 h-full ">
-          <Spline scene="https://prod.spline.design/2JdxS1nnQwdtH4jR/scene.splinecode" className="w-full h-full "/>
+          <div className="md:w-1/2 h-[400px] ">
+          <Spline scene="https://prod.spline.design/2JdxS1nnQwdtH4jR/scene.splinecode" className="w-full h-[400px] "/>
           {/* <Spline scene="https://prod.spline.design/imPhE8Mcs-131BSt/scene.splinecode" className="w-full h-full "/> */}
 
           </div>
@@ -169,6 +170,7 @@ export default function Home() {
       <div className="my-10">
         <Contactus />
       </div>
+      <CalendlyWidget/>
       <Footer />
     </div>
   );

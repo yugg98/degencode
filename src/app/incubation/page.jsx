@@ -1,6 +1,7 @@
 "use client";
 import Spline from "@splinetool/react-spline";
 import Footer from "../../components/Footer";
+import CalendlyWidget from "../../components/Calendly";
 
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
@@ -34,7 +35,7 @@ const page = () => {
         <p className="text-5xl text-white text-center font-silkscreen">
           Our Support
         </p>
-        <div class="relative py-16 md:py-24 lg:py-32">
+        <div class="relative py-16 pt-36 pb-0">
           <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap-reverse	 p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div>
@@ -182,6 +183,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <CalendlyWidget/>
       <Footer />
     </div>
   );

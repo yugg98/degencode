@@ -3,13 +3,14 @@ import Spline from "@splinetool/react-spline";
 import Footer from "../../components/Footer";
 
 import React from "react";
+import CalendlyWidget from "../../components/Calendly";
 
 const page = () => {
   return (
     <div>
       <div className="my-20 md:px-10 px-6 max-w-6xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <div className="md:w-1/2 h-[200px] w-full">
+          <div className="md:w-1/2 h-[400px] w-full">
           <Spline scene="https://prod.spline.design/i-LR7IyAGVW15ifC/scene.splinecode"  />
           </div>
           <div className="md:w-1/2 w-full">
@@ -85,6 +86,7 @@ const page = () => {
           </svg>{" "}
         </button>
       </div>
+      <CalendlyWidget/>
       <Footer />
     </div>
   );
