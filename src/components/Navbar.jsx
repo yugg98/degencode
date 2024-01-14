@@ -30,6 +30,7 @@ import { Fragment } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { FloatingForm } from "./Contact";
 
 const user = {
   name: "Chelsea Hagon",
@@ -77,10 +78,43 @@ export default function Example() {
                   </div>
                 </div>
 
-                <div className="flex items-center md:absolute md:inset-y-0 md:right-0 outline-none">
-                  <button className="bg-white rounded-sm p-6 mx-4">
-                    Get In Touch
-                  </button>
+                <div className="flex items-center absolute inset-y-0 right-0 outline-none">
+                  <Popover className="">
+                    <Popover.Button className="bg-white rounded-sm p-6 mx-4">
+                      Get In Touch
+                    </Popover.Button>
+
+                    <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-200"
+                      enterFrom="opacity-0 translate-x-full" // Enter from left
+                      enterTo="opacity-100 translate-x-0"
+                      leave="transition ease-in duration-150"
+                      leaveFrom="opacity-100 translate-x-0"
+                      leaveTo="opacity-0 translate-x-full" // Leave to left
+                    >
+                      <Popover.Panel
+                        as="nav"
+                        className="absolute border-t h-screen border-gray-700 bg-black  md:right-[-150px] left-[-116px]  md:w-[50vw] w-full  z-20"
+                        aria-label="Global"
+                      >
+                        <div className="flex w-screen">
+                          <div className="border-r h-screen h pt-4">
+                            <Popover.Button>
+                              <XMarkIcon className="w-8 h-8 text-white font-semibold mx-4" />
+                            </Popover.Button>
+                          </div>
+                          <div className="mx-auto max-w-3xl w-full space-y-1 px-2 pb-3 pt-2 sm:px-4 bg-gray-900">
+                            <div className="ml-2 ">
+                              <img src="/logo.svg" alt="" srcset="" />
+                            </div>
+                            <FloatingForm/>
+                          </div>
+                        </div>
+                      </Popover.Panel>
+                    </Transition>
+                  </Popover>
+
                   <Popover.Button className="relative -mx-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Open menu</span>
