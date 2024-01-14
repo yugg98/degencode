@@ -36,15 +36,15 @@ const page = () => {
             <p className="text-lg text-white text-center font-silkscreen mt-4">TRADED VOLUME</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center font-silkscreen text-purple-900">100+</p>
+            <p className="text-5xl  text-center font-silkscreen text-purple-900">100+</p>
             <p className="text-lg text-white text-center font-silkscreen mt-4">COUNTRIES SUPPORTED</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center font-silkscreen text-purple-900 font-silkscreen text-purple-900">50+</p>
+            <p className="text-5xl  text-center  font-silkscreen text-purple-900">50+</p>
             <p className="text-lg text-white text-center font-silkscreen mt-4">INSTITUTIONAL CLIENTS</p>
         </div>
         <div>
-            <p className="text-5xl text-white text-center font-silkscreen text-purple-900">$5M+</p>
+            <p className="text-5xl  text-center font-silkscreen text-purple-900">$5M+</p>
             <p className="text-lg text-white text-center font-silkscreen mt-4">RETURN GENERATED FOR INVESTORS WORLDWIDE</p>
         </div>
       </div>
