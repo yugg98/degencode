@@ -1,4 +1,5 @@
 "use client";
+import Spline from "@splinetool/react-spline";
 import Footer from "../../components/Footer";
 
 import React from "react";
@@ -35,9 +36,9 @@ const page = () => {
         </p>
         <div class="relative py-16 md:py-24 lg:py-32">
           <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
-            <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
+            <div className="flex justify-center sm:flex-nowrap flex-wrap-reverse	 p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div>
-                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
                   Fundraising
                 </p>
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
@@ -71,14 +72,18 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <img src="/fund.png" className="sticky top-20" alt="" srcset="" />
+              <Spline
+            scene="https://prod.spline.design/dYZ73VRaOS4wvo0n/scene.splinecode"
+            className="h-[400px] w-full"
+          />
+          
 
             </div>
           </div>
           <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
             <div className="flex justify-end sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div className="">
-                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
                   Tech Sorcery
                 </p>
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
@@ -110,7 +115,7 @@ const page = () => {
           <div class="sticky right-0 top-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div>
-                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
                   Marketing and Public Raise
                 </p>
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
@@ -144,7 +149,7 @@ const page = () => {
             <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
 
               <div>
-                <p className="md:text-5xl text-3xl py-4 text-white mt-4 font-silkscreen">
+                <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
                   Market Making
                 </p>
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">

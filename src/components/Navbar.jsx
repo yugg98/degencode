@@ -80,7 +80,7 @@ export default function Example() {
 
                 <div className="flex items-center absolute right-0 inset-y-0  outline-none">
                   <Popover className="">
-                    <Popover.Button className="bg-white rounded-sm p-6 mx-4">
+                    <Popover.Button className="bg-white rounded-sm p-6 py-2 mx-4">
                       Get In Touch
                     </Popover.Button>
 

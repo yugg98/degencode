@@ -30,12 +30,12 @@ export default function Home() {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-        <div className="md:w-1/2 ">
-            <Spline scene="https://prod.spline.design/7irI3hoitl3wO0AT/scene.splinecode" className="w-full h-full "/>
+        <div className="md:w-1/2 w-full h-[200px]">
+            <Spline scene="https://prod.spline.design/7irI3hoitl3wO0AT/scene.splinecode" className="w-full  "/>
           </div>
           
           <div className="md:w-1/2">
-            <p className="md;text-5xl text-3xl md:mt-0 mt-10 text-white">
+            <p className="md:text-5xl text-3xl md:mt-0 mt-10 text-white">
               Development Services
             </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
@@ -47,10 +47,6 @@ export default function Home() {
               just developers; we&apos;re the architects of the future digital
               landscape..
             </p>
-          </div>
-        </div>
-        <div className="flex md:flex-nowrap flex-wrap justify-between items-center my-10 gap-x-20  ">
-          <div className="md:w-1/2">
             <p className="text-gray-300 max-w-lg  md:text-lg text-base mt-4">
               With a pulse on the latest technologies, we craft bespoke
               solutions that not only meet but exceed the demands of the Web3
@@ -58,10 +54,9 @@ export default function Home() {
               innovation meets execution, and the future is now..
             </p>
           </div>
-          <div className="md:w-1/2 ">
-            <Spline scene="https://prod.spline.design/2JdxS1nnQwdtH4jR/scene.splinecode" className="w-full h-full "/>
-          </div>
         </div>
+       
+       
       </div>
       <Services />
       <div className="bg-white/10 py-20 my-20 px-4 ">
@@ -105,7 +100,9 @@ export default function Home() {
           </div>
           
           <div className="md:w-1/2 h-full ">
-            <Spline scene="https://prod.spline.design/imPhE8Mcs-131BSt/scene.splinecode" className="w-full h-full "/>
+          <Spline scene="https://prod.spline.design/2JdxS1nnQwdtH4jR/scene.splinecode" className="w-full h-full "/>
+          {/* <Spline scene="https://prod.spline.design/imPhE8Mcs-131BSt/scene.splinecode" className="w-full h-full "/> */}
+
           </div>
 
         </div>

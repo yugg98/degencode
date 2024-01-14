@@ -59,25 +59,15 @@ const page = () => {
         </Marquee>
       </div>
       <div className="flex md:flex-nowrap justify-center items-center flex-wrap gap-x-10 max-w-6xl mx-auto px-6 ">
-        <div className="h-full w-1/2">
+        <div className="h-full md:w-1/2">
           <Spline
-            scene="https://prod.spline.design/Oie8Fth7HFDZZB8b/scene.splinecode"
+            scene="https://prod.spline.design/3v3oRJAdp42Om0iv/scene.splinecode"
             className="h-full w-full"
           />
+       
         </div>
         <div className="flex flex-col gap-y-6 md:max-w-[50%] w-full mt-4">
-          <Link href="/incubation">
-            <div className="border-b hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
-              <p className="text-3xl font-silkscreen linear-text2">
-                Incubation
-              </p>
-              <p className="text-md mt-2 text-white">
-                Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
-                Innovation in a Single Leap!
-              </p>
-            </div>
-          </Link>
-          <Link href="/technology">
+        <Link href="/technology">
             <div className="border-b  hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
               <p className="text-3xl font-silkscreen linear-text2">
                 Technology
@@ -110,6 +100,17 @@ const page = () => {
               </p>
             </div>
           </Link>
+          <Link href="/incubation">
+            <div className="border-b hover:scale-95 transition-all ease-in-out delay-75 border-gray-600 pb-6">
+              <p className="text-3xl font-silkscreen linear-text2">
+                Incubation
+              </p>
+              <p className="text-md mt-2 text-white">
+                Decade Dive: Incubating and Investing, Capturing a Decade&apos;s
+                Innovation in a Single Leap!
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
 
@@ -117,7 +118,7 @@ const page = () => {
         <div className=" max-w-3xl overflow-hidden flex justify-between items-center px-6 lg:px-8">
           <div className="w-1/3">
             <p className="text-xl font-silkscreen font-semibold  text-white mb-6">
-              Partners
+              Portfolio
             </p>
           </div>
           <div className="flex gap-2 justify-between ml-10">

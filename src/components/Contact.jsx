@@ -219,35 +219,14 @@ export const FloatingForm = () => {
   >
     <div className=" max-w-xl lg:mr-0 lg:max-w-lg">
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-        <div>
-          <div className="gr-1 absolute" />
-
+        
+        <div className="sm:col-span-2">
           <div>
             <label
               htmlFor="email"
               className="block text-sm font-medium leading-6 text-white"
             >
-              First Name
-            </label>
-            <div className="mt-2">
-              <input
-                type="text"
-                name="firstname"
-                value={data.firstname}
-                className="block w-full px-4  py-1.5 text-gray-900 bg-transparent shadow-sm border-b placeholder:text-gray-400  sm:text-sm sm:leading-6"
-                placeholder="John"
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-              Last Name
+              Full Name
             </label>
             <div className="mt-2">
               <input
@@ -287,13 +266,13 @@ export const FloatingForm = () => {
               htmlFor="email"
               className="block text-sm font-medium leading-6 text-white"
             >
-              Phonenumber
+              Company
             </label>
             <div className="mt-2">
               <input
                 type="text"
                 name="firstname"
-                value={data.firstname}
+                value={data.company}
                 className="block w-full px-4  py-1.5 text-gray-900 bg-transparent shadow-sm border-b placeholder:text-gray-400  sm:text-sm sm:leading-6"
                 placeholder="Your Phone Number"
                 onChange={handleChange}
