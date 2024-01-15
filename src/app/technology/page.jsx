@@ -113,7 +113,7 @@ export default function Home() {
       </div>
       <div className="bg-white/10 py-20 my-20 px-4">
         <div className="flex mb-20 md:flex-nowrap flex-wrap justify-between items-center max-w-5xl mx-auto  gap-x-20  ">
-          <div>
+          <div className="md:w-1/2">
             <p className="md:text-5xl text-3xl text-white">
               Token and Smart Contract Services
             </p>
@@ -126,7 +126,7 @@ export default function Home() {
               where the real world gets a digital makeover.
             </p>
           </div>
-          <div className="md:w-1/2 h-[400px] ">
+          <div className="md:w-1/2 mt-4 h-[400px] ">
             <Spline
               scene="https://prod.spline.design/B15h7sCE2b9XR9SL/scene.splinecode"
               className="w-full h-[400px] "

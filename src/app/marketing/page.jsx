@@ -22,16 +22,16 @@ export default function Home() {
           Web 3.0 meets the wild side of degen growth
         </p>
       </div>
-      <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
-        <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <div  className="w-[600px] h-[400px]">
+      <div className="my-20 md:px-10 px-6 max-w-7xl mx-auto">
+        <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-10  ">
+          <div  className="md:w-1/2 md:h-[700px] h-[400px]">
             <Spline
               scene="https://prod.spline.design/84v7sYfVJ7K-X6Ua/scene.splinecode"
-              className="w-[600px] h-[400px]"
+              className="w-[700px] md:h-[700px] h-[400px]"
             />
             </div>
-          <div>
-            <p className="md:text-7xl font-silkscreen text-3xl md:mt-0 mt-10 text-white">
+          <div className="md:w-1/2">
+            <p className="md:text-7xl w-1/2 font-silkscreen text-3xl md:mt-0 mt-10 text-white">
               Fueling Communities
             </p>
             <p className="text-gray-300 md:text-lg text-sm mt-4">
