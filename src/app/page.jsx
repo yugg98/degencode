@@ -61,7 +61,7 @@ const page = () => {
       <div className="flex md:flex-nowrap justify-center items-center flex-wrap gap-x-10 max-w-6xl mx-auto px-6 ">
         <div className="h-full md:w-1/2">
           <Spline
-            scene="https://prod.spline.design/Oie8Fth7HFDZZB8b/scene.splinecode"
+            scene="https://prod.spline.design/66TNjBVF7heMqEoh/scene.splinecode"
             className="h-full w-full"
           />
        

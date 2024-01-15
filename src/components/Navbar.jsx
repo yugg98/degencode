@@ -45,7 +45,7 @@ const navigation = [
   { name: "Marketing & Public Raise", href: "/marketing", current: false },
   { name: "Market Making", href: "/marketmaking", current: false },
   { name: "Incubation", href: "/incubation", current: false },
-  { name: "Join Dc", href: "#", current: false },
+  { name: "Join DC", href: "#", current: false },
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

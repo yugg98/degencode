@@ -45,27 +45,27 @@ const page = () => {
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
                   <div>
                     <p className="text-lg text-white">Mad Connections</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       Turbocharge your network for epic fundraising collabs.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Custom Hacks</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       No cookie-cutter crap. Tailored strategies for your
                       project to slay.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Insider Scoops</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       Ride the trend wave with our market insights. Stay ahead,
                       stay degen.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Total Takeoff Support</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       {" "}
                       From pitch to deal, we&apos;ve got your back. Your success
                       is our degen mission.
@@ -73,12 +73,12 @@ const page = () => {
                   </div>
                 </div>
               </div>
+              <div className="md:h-[600px] w-full">
               <Spline
-            scene="https://prod.spline.design/dYZ73VRaOS4wvo0n/scene.splinecode"
-            className="h-[400px] w-full"
-          />
-          
-
+                scene="https://prod.spline.design/dYZ73VRaOS4wvo0n/scene.splinecode"
+                className="md:h-[600px] w-full"
+              />
+              </div>
             </div>
           </div>
           <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
@@ -90,21 +90,21 @@ const page = () => {
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
                   <div>
                     <p className="text-lg text-white">Pixel Precision MVPs</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       MVPs so sharp, they cut through the noise like a tech
                       ninja.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Full-Stack Brilliance</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       Gandalf-level full-stack wizardry for a robust tech
                       foundation.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Strategic Code Jitsu</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       We&apos;re not just coding; we&apos;re architecting a tech
                       revolution.
                     </p>
@@ -124,21 +124,21 @@ const page = () => {
                     <p className="text-lg text-white">
                       Targeted Public Raise Campaigns
                     </p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       targeted campaigns that hit hard, driving contributions
                       like a degen force.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Community Cult Vibes</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       We&apos;re tribe architects. Fostering communities that
                       rally hard behind your project – expect nothing less.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Influencer Overdrive</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       Turning influencers into your project&apos;s hype squad.
                     </p>
                   </div>
@@ -148,7 +148,6 @@ const page = () => {
           </div>
           <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
-
               <div>
                 <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
                   Market Making
@@ -156,7 +155,7 @@ const page = () => {
                 <div className="grid grid-cols-2 my-10 md:gap-10 gap-6">
                   <div>
                     <p className="text-lg text-white">Liquidity Lightning</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       Craft liquidity experiences that turn heads. Our token
                       management ensures seamless trading and vibrant markets.
                     </p>
@@ -165,14 +164,14 @@ const page = () => {
                     <p className="text-lg text-white">
                       Dynamic Token Valuation
                     </p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       We sculpt dynamic valuations that reflect your
                       project&apos;s true potential.
                     </p>
                   </div>
                   <div>
                     <p className="text-lg text-white">Market Insight Mastery</p>
-                    <p className="text-gray-700">
+                    <p className="text-gray-200">
                       Numbers talk, trends walk. Dive into market insights that
                       steer your strategy in the right direction.
                     </p>
@@ -183,7 +182,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <CalendlyWidget/>
+      <CalendlyWidget />
       <Footer />
     </div>
   );

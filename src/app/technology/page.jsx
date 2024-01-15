@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-        <div className="md:w-1/2 w-full h-[200px]">
+        <div className="md:w-1/2 w-full h-[500px]">
             <Spline scene="https://prod.spline.design/7irI3hoitl3wO0AT/scene.splinecode" className="w-full  "/>
           </div>
           
@@ -61,8 +61,8 @@ export default function Home() {
       </div>
       <Services />
       <div className="bg-white/10 py-20 my-20 px-4 ">
-        <div className="flex md:flex-nowrap  flex-wrap justify-between items-center max-w-5xl mx-auto  gap-x-20  ">
-        <div className="md:w-1/2 overflow-hidden">
+        <div className="flex md:flex-nowrap  flex-wrap justify-between items-center max-w-8xl mx-auto  gap-x-20  ">
+        <div className="md:w-1/2 overflow-hidden md:block hidden">
             <Spline scene="https://prod.spline.design/oTzmRZoXhCHgxNLd/scene.splinecode" className="w-full h-full "/>
           </div>
 

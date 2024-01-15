@@ -24,12 +24,12 @@ export default function Home() {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-          <div className="w-1/2">
+          <div  className="w-[600px] h-[400px]">
             <Spline
-              scene="https://my.spline.design/sphereparticle-59b517cd5a42466c5c2499bb22a729fb/"
-              className="w-full h-full"
+              scene="https://prod.spline.design/Mp4mfHYB6ryhB1tY/scene.splinecode"
+              className="w-[600px] h-[400px]"
             />
-          </div>
+            </div>
           <div>
             <p className="md:text-7xl font-silkscreen text-3xl md:mt-0 mt-10 text-white">
               Fueling Communities
