@@ -36,7 +36,7 @@ const page = () => {
           Our Support
         </p>
         <div class="relative py-16 pt-36 pb-0">
-          <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+          <div class="sticky top-0 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#0a0a0b] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap-reverse	 p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div>
                 <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
@@ -81,7 +81,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+          <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#0a0a0b] px-5 py-10 sm:px-20">
             <div className="flex justify-end sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div className="">
                 <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
@@ -113,7 +113,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div class="sticky right-0 top-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+          <div class="sticky right-0 top-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#0a0a0b] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div>
                 <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
@@ -146,7 +146,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div class="sticky top-0 right-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#101010] px-5 py-10 sm:px-20">
+          <div class="sticky right-0 top-0 md:w-1/2 border-t  -mt-48 mb-48 rounded-t-[46px]  border-white bg-[#0a0a0b] px-5 py-10 sm:px-20">
             <div className="flex justify-center sm:flex-nowrap flex-wrap p-6 items-center max-w-6xl mx-auto my-20 gap-x-20">
               <div>
                 <p className="md:text-5xl text-center text-3xl py-4 text-white mt-4 font-silkscreen">
@@ -180,6 +180,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
       <CalendlyWidget />
