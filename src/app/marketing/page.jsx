@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
           <div  className="w-[600px] h-[400px]">
             <Spline
-              scene="https://prod.spline.design/Mp4mfHYB6ryhB1tY/scene.splinecode"
+              scene="https://prod.spline.design/84v7sYfVJ7K-X6Ua/scene.splinecode"
               className="w-[600px] h-[400px]"
             />
             </div>

@@ -75,7 +75,7 @@ const page = () => {
               </div>
               <div className="md:h-[600px] w-full">
               <Spline
-                scene="https://prod.spline.design/dYZ73VRaOS4wvo0n/scene.splinecode"
+                scene="https://prod.spline.design/0pVJ2zTkPv1aJ9gH/scene.splinecode"
                 className="md:h-[600px] w-full"
               />
               </div>

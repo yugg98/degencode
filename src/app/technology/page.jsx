@@ -31,10 +31,13 @@ export default function Home() {
       </div>
       <div className="my-20 md:px-10 px-6 max-w-5xl mx-auto">
         <div className="flex md:flex-nowrap flex-wrap justify-between items-center  gap-x-20  ">
-        <div className="md:w-1/2 w-full h-[500px]">
-            <Spline scene="https://prod.spline.design/7irI3hoitl3wO0AT/scene.splinecode" className="w-full  "/>
+          <div className="md:w-1/2 w-full h-[500px]">
+            <Spline
+              scene="https://prod.spline.design/7irI3hoitl3wO0AT/scene.splinecode"
+              className="w-full  "
+            />
           </div>
-          
+
           <div className="md:w-1/2">
             <p className="md:text-5xl text-3xl md:mt-0 mt-10 text-white">
               Development Services
@@ -56,17 +59,17 @@ export default function Home() {
             </p>
           </div>
         </div>
-       
-       
       </div>
       <Services />
       <div className="bg-white/10 py-20 my-20 px-4 ">
         <div className="flex md:flex-nowrap  flex-wrap justify-between items-center max-w-8xl mx-auto  gap-x-20  ">
-        <div className="md:w-1/2 overflow-hidden md:block hidden">
-            <Spline scene="https://prod.spline.design/oTzmRZoXhCHgxNLd/scene.splinecode" className="w-full h-full "/>
+          <div className="md:w-1/2 overflow-hidden md:block hidden">
+            <Spline
+              scene="https://prod.spline.design/oTzmRZoXhCHgxNLd/scene.splinecode"
+              className="w-full h-full "
+            />
           </div>
 
-          
           <div className="md:w-1/2">
             <p className="md:text-5xl text-3xl md:mt-0 mt-4 text-white">
               Real World Assets (RWA)
@@ -99,13 +102,13 @@ export default function Home() {
               a leap into the extraordinary.
             </p>
           </div>
-          
+
           <div className="md:w-1/2 h-[400px] ">
-          <Spline scene="https://prod.spline.design/2JdxS1nnQwdtH4jR/scene.splinecode" className="w-full h-[400px] "/>
-          {/* <Spline scene="https://prod.spline.design/imPhE8Mcs-131BSt/scene.splinecode" className="w-full h-full "/> */}
-
+            <Spline
+              scene=" https://prod.spline.design/KXUbox-NAmMQ5sVP/scene.splinecode"
+              className="w-full h-[400px] "
+            />
           </div>
-
         </div>
       </div>
       <div className="bg-white/10 py-20 my-20 px-4">
@@ -123,7 +126,12 @@ export default function Home() {
               where the real world gets a digital makeover.
             </p>
           </div>
-          <img src="/dev5.png" className="md:mt-0 mt-4" alt="" srcset="" />
+          <div className="md:w-1/2 h-[400px] ">
+            <Spline
+              scene="https://prod.spline.design/B15h7sCE2b9XR9SL/scene.splinecode"
+              className="w-full h-[400px] "
+            />
+          </div>
         </div>
         <OtherSerices />
       </div>
@@ -170,7 +178,7 @@ export default function Home() {
       <div className="my-10">
         <Contactus />
       </div>
-      <CalendlyWidget/>
+      <CalendlyWidget />
       <Footer />
     </div>
   );
