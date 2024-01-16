@@ -107,7 +107,7 @@ export default function Home() {
                 <p class="text-2xl text-white font-silkscreen font-semibold">
                   Ryuk
                 </p>
-                <p class="text-sm text-gray-100">Grwoth Hacker</p>
+                <p class="text-sm text-gray-100">Growth Hacker</p>
               </div>
             </Link>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
                 50+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                thriving communities we’ve super-charged
+                Thriving communities we’ve super-charged
               </p>
             </div>
             <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
@@ -145,7 +145,7 @@ export default function Home() {
                 1000%
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                average ROI of our growth hacks
+                Average ROI of our growth hacks
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function Home() {
                 500k+
               </p>
               <p className="text-3xl text-center mt-8 text-white">
-                degens reached
+                Degens reached
               </p>
             </div>
             <div className="bg-white/10 hover:scale-95 transition-all ease-in-out delay-75 rounded-3xl py-16">
