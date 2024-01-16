@@ -63,10 +63,10 @@ export default function Home() {
       <Services />
       <div className="bg-white/10 py-20 my-20 px-4 ">
         <div className="flex md:flex-nowrap  flex-wrap justify-between items-center max-w-8xl mx-auto  gap-x-20  ">
-          <div className="md:w-1/2 overflow-hidden md:block hidden">
+          <div className="md:w-1/2 w-full overflow-hidden">
             <Spline
               scene="https://prod.spline.design/oTzmRZoXhCHgxNLd/scene.splinecode"
-              className="w-full h-full "
+              className="w-full h-full relative md:-left-[5vw] -left-[30vw] scale-[0.7] md:scale-[1]"
             />
           </div>
 
