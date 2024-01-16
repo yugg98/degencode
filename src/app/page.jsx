@@ -59,7 +59,7 @@ const page = () => {
         </Marquee>
       </div>
       <div className="flex md:flex-nowrap justify-center items-center flex-wrap gap-x-10 max-w-6xl mx-auto px-6 ">
-        <div className="h-[400px] md:w-1/2">
+        <div className="h-[600px] md:w-1/2 p-12">
           <Spline
             scene="https://prod.spline.design/GcuDHq5agYaFh3Ai/scene.splinecode"
             className="h-vh w-full"
