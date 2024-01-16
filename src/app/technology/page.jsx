@@ -17,7 +17,6 @@ export default function Home() {
             sequence={["Strap in, digital dynamos!"]}
             repeat={"infinity"}
           />
-           
         </p>
         <p className="text-white mt-4 md:text-2xl text-xl max-w-5xl">
           At Degencode, we&apos;re slinging blockchain wizardry and crafting

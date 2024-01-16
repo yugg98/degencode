@@ -346,7 +346,8 @@ export default function Home() {
           Had enough of ordinary? It’s time for the extraordinary. Join us on
           this wild ride.
         </p>
-        <button className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-orange-600 text-orange-600 ">
+        <Link  href="https://t.me/Indra6683">
+        <button  className=" shadow-lg  hover:bg-white font-semibold my-4 p-4 py-2 gap-x-2  rounded-full bg-transparent border-2 flex border-orange-600 text-orange-600 ">
           HMU!
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -376,6 +377,7 @@ export default function Home() {
             </defs>
           </svg>{" "}
         </button>
+        </Link>
       </div>
       <CalendlyWidget/>
       <Footer />
